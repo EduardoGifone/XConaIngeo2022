@@ -1,74 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>XCONAEINGEOXI
-    </title>
+    <title>XCONAEINGEOXI</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="XCONAEINGEO UNSAAC CUSCO 2022">
     <link rel="icon" href="../../Imagenes/LOGO SIN FONDO-13.png">
-    <link rel="stylesheet" href="../styles/i-styles.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/styles_index.css">
+    <link rel="stylesheet" href="../styles/whatsapp.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#" class="nav-a">Inicio</a>
-            <a href="#" class="nav-a">Organizacion</a>
-            <a href="#"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" id="nav-brujula"></a>
-            <a href="#" class="nav-a">Contacto</a>
-            <a href="#" class="nav-a-login">Iniciar Sesion</a>
+    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
+        <i class="icon icon-whatsapp"></i>
+    </a>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav__a">Inicio</a>
+            <a href="#" class="nav__a">Organizacion</a>
+            <a href="#"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" id="nav__brujula"></a>
+            <a href="#" class="nav__a">Contacto</a>
+            <a href="#" class="nav__a nav__a-login">Iniciar Sesion</a>
         </nav>
     </header>
-    <main>
-        <div class="contenedor contenedor-main">
-            <div class="izq">                
-                <div class="img-logo"></div>
+    <main class="main">
+        <div class="main__contenedor">
+            <div class="main__contenedor__izq">                
+                <div class="main__contenedor__izq__img-logo"></div>
             </div>
-            <div class="der">
-                <h1>Del 22 al 28 de agosto</h1>
-                <div class="contenedor-contador">
-                    <div class="img-contador"></div>
-                    <div id="contador"></div>
+            <div class="main__contenedor__der">
+                <h1 class="main__contenedor__der__h1">Del 22 al 28 de agosto</h1>
+                <div class="contador">
+                    <div class="contador__img-contador"></div>
+                    <div id="contador__contador"></div>
                 </div>
             </div>            
         </div>        
     </main>
-    <article>
-        <section class="s-inscribete">
-            <h2>¡Inscríbete ya!</h2>
-            <p>Accede al congreso XCONAEINGEO, llevado a cabo del 02 al 06 de agosto de 2022.</p>
-            <button>Inscribirme</button>
+    <article class="article">
+        <section class="inscribete">
+            <h2 class="inscribete__h2">¡Inscríbete ya!</h2>
+            <p class="inscribete__p">Accede al congreso XCONAEINGEO, llevado a cabo del 02 al 06 de agosto de 2022.</p>
+            <button class="inscribete__button">Inscribirme</button>
         </section>
-        <section class="s-video">
-            <div class="separacion"></div>
-            <video src="../../Videos/prueba.mp4" autoplay controls loop muted></video>
-        </section>
-        <section class="s-representamos">
-            <div class="separacion"></div>
-            <h2>¿Que Representamos?</h2>
-            <div class="contenedor-representamos">
-                <div class="carta">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum omnis nam quam nulla hic et cum incidunt numquam. Nam iste in quas excepturi dolorem, asperiores ut consequuntur dolores? Dolores?</p>
-                    <h3>MISION</h3>
-                </div>
-                <div class="carta">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum omnis nam quam nulla hic et cum incidunt numquam. Nam iste in quas excepturi dolorem, asperiores ut consequuntur dolores? Dolores?</p>
-                    <h3>VISION</h3>
-                </div>
-                <div class="carta">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum omnis nam quam nulla hic et cum incidunt numquam. Nam iste in quas excepturi dolorem, asperiores ut consequuntur dolores? Dolores?</p>
-                    <h3>META</h3>
-                </div>
+        <div class="separacion"></div>
+        <section class="video">
+            <video class="video__video" src="../../Videos/prueba.mp4" autoplay controls loop muted></video>
+        </section>        
+        <div class="separacion separacion-bajo"></div>
+        <section class="representamos">
+            <h2 class="representamos__h2">¿Que Representamos?</h2>
+            <div class="representamos__contenedor">
+                <figure class="figure">
+                    <img src="../../Imagenes/mision.png" alt="Mision del congreso Xconaeingeo2022" class="figure__img">
+                    <div class="figure__capa">
+                        <h3 class="figure__capa__h3">MISION</h3>
+                        <p class="figure__capa__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum omnis nam quam nulla hic et cum incidunt numquam. Nam iste in quas excepturi dolorem, asperiores ut consequuntur dolores? Dolores?</p>
+                    </div> 
+                </figure>                   
+                <figure class="figure">
+                    <img src="../../Imagenes/vision.png" alt="Vision del congreso Xconaeingeo2022" class="figure__img">
+                    <div class="figure__capa">
+                        <h3 class="figure__capa__h3">VISION</h3>
+                        <p class="figure__capa__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum omnis nam quam nulla hic et cum incidunt numquam. Nam iste in quas excepturi dolorem, asperiores ut consequuntur dolores? Dolores?</p>
+                    </div>   
+                </figure>                 
+                <figure class="figure">
+                    <img src="../../Imagenes/meta.png" alt="Meta del congreso Xconaeingeo2022" class="figure__img">
+                    <div class="figure__capa">
+                        <h3 class="figure__capa__h3">META</h3>
+                        <p class="figure__capa__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum omnis nam quam nulla hic et cum incidunt numquam. Nam iste in quas excepturi dolorem, asperiores ut consequuntur dolores? Dolores?</p>
+                    </div>  
+                </figure>                  
             </div>
         </section>
-        <section class="s-redes-sociales">
+        <section class="redes-sociales">
 
         </section>
-        <section class="s-ponentes"></section>
+        <section class="ponentes">
+
+        </section>
     </article>
-    <footer>
+    <footer class="footer">
     </footer>
 
     <script src="../scripts/simplyCountdown.min.js"></script>
     <script src="../scripts/contador.js"></script>
+    <script src="../scripts/scroll.js"></script>
 </body>
 </html>
