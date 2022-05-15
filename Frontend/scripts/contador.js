@@ -1,4 +1,4 @@
-simplyCountdown('#contador', {
+simplyCountdown('#contador__contador', {
     year: 2022, // required
     month: 8, // required
     day: 1, // required
