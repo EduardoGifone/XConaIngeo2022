@@ -511,6 +511,24 @@ body {
         text-align: center;
     }
 
+    /* ============================================== SECTION INSCRIBETE ============================================== */
+
+    .inscribete__h2 {
+        font-size: 2rem;
+        margin: 20px 50px;
+    }
+
+    .inscribete__p {
+        font-size: 1.2rem;
+        margin: 20px 50px;
+    }
+
+    .inscribete__button {
+        font-size: 1rem;
+        margin: 20px 50px;
+    }
+
+
     /* ============================================== SECTION REPRESENTAMOS ============================================== */
 
     .representamos__h2 {
