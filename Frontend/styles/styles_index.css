@@ -66,12 +66,12 @@ body {
 
 /* ============================================== NAV ============================================== */
 
-#nav__brujula {
+.nav__brujula {
     height: 1.875rem;
     transition: transform .3s ease;
 }
 
-#nav__brujula:hover {
+.nav__brujula:hover {
     transform: scale(1.1);
 }
 
@@ -188,6 +188,7 @@ body {
 .contador {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    box-sizing: content-box;
 }
 
 .contador__img-contador {
@@ -217,12 +218,12 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0.625rem;
     color: white;
-    margin: 0rem 0.375rem;
+    margin: 0 0.1875rem;
 }
 
 .main .simply-amount {
     display: block;
-    font-size: 4vw;
+    font-size: 2.8125rem;
     font-weight: 700;
 }
 
@@ -253,19 +254,19 @@ body {
 }
 
 .inscribete__h2 {
-    margin: 30px 50px;
+    margin: 1.875rem 3.125rem;
     color: #3C4858;
     font-size: 2.5rem;
 }
 
 .inscribete__p {
-    margin: 30px 50px;
+    margin: 1.875rem 3.125rem;
     color: #999999;
     font-size: 1.25rem;
 }
 
 .inscribete__button {
-    margin: 30px 50px;
+    margin: 1.875rem 3.125rem;
     padding: 0.9375rem 1.875rem;
     font-size: 1.25rem;
     font-weight: bold;
@@ -383,27 +384,27 @@ body {
 }
 
 .redes-sociales__h2 {
-    font-size: 40px;
-    margin: 30px 70px;
+    font-size: 2.5rem;
+    margin: 1.875rem 4.375rem;
 }
 
 .redes-sociales__p {
-    font-size: 25px;
-    margin: 30px 70px;
+    font-size: 1.5625rem;
+    margin: 1.875rem 4.375rem;
 }
 
 .redes-sociales__ul {
     display: flex;
-    margin: 20px 70px 30px;
+    margin: 1.25rem 4.375rem 1.875rem;
     justify-content: center;
 }
 
 .redes-sociales__ul__link__img {
-    width: 55px;
-    height: 55px;
+    width: 3.4375rem;
+    height: 3.4375rem;
     border-radius: 50%;
-    box-shadow: 0 0 20px 0 #000B;
-    margin: 0 8px;
+    box-shadow: 0 0 1.25rem 0 #000B;
+    margin: 0 0.5rem;
     transition: 500ms;
 }
 
@@ -441,7 +442,7 @@ body {
     max-width: 90vw;
     margin: auto;
     background-color: #1D1F1F;
-    height: 70px;
+    height: 4.375rem;
     box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 1);
     display: flex;
     justify-content: end;
@@ -450,9 +451,9 @@ body {
 
 .footer__h2 {
     color: white;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 300;
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 /* =========================================================================================================== */
@@ -461,12 +462,36 @@ body {
 
 @media (max-width: 800px) {
 
+    * {
+        font-size: 12px;
+    }
+
+    /* ============================================== NAV ============================================== */
+    
+    .nav__brujula {
+        display: none;
+    }
+
+    .nav {
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-abajo {
+        padding: 85px 0;
+        padding-top: 75px;
+    }
     /* ============================================== MAIN ============================================== */
+
+    .main {
+        padding-top: 50px;
+    }
 
     .main__contenedor {
         display: flex;
         flex-direction: column;
-        padding-top: 80px;
+        padding-top: 5rem;
     }
 
     .main__contenedor__izq {
@@ -477,7 +502,7 @@ body {
 
     .main__contenedor__izq__img-logo {
         height: 100%;
-        margin: 0 50px;
+        margin: 0 3.125rem;
     }
 
     .main__contenedor__der {
@@ -488,14 +513,16 @@ body {
     }
     
     .main__contenedor__der__h1 {
+        position: relative;
+        top: -3.75rem;
         text-align: center;
-        margin: 0 50px;
-        font-size: 50px;
+        margin: 0 3.125rem;
+        font-size: 3.125rem;
     }
     
     .contador {
         height: 50%;
-        margin: 0 50px;
+        margin: 0 3.125rem;
     }
     
     #contador__contador {
@@ -512,10 +539,6 @@ body {
     }
 
     /* ============================================== SECTION REPRESENTAMOS ============================================== */
-
-    .representamos__h2 {
-        font-size: 1.5625rem;
-    }
 
     .figure {
         transform: scale(0.9);
