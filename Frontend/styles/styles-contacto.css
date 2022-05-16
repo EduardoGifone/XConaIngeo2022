@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(/Imagenes/ingGeolog.jpg) no-repeat center center; 
+    background-size: cover;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Quicksand', 'Times New Roman';
+    padding: 0 1.5em;
+}
+
+iframe{
+    display: block;
+    width: 100%; 
+    padding-right: 0 ;
+    margin-right: 0 ; 
+}
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* .logo {
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+}
+
+.logo span {
+    color: #8B0000;
+} */
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+    border-radius: .7em;
+}
+
+.contact-form {
+    background: rgb(250, 250, 234);
+    color: #ebc402;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form h3{
+    color: #ebc402;
+    font-size: 1.4em;
+}
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+.contact-form label{
+    font-size: 1.1em;
+}
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #ebc402;
+    font-size: large;
+}
+
+.contact-form form textarea{
+    resize: none;
+}
+
+.contact-form form button {
+    width: 8em;
+    outline: 0;
+    color: #fff;
+    background: #ebc402;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #8B0000;
+    color: #fff;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: #8B0000;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.contact-info h4{
+    font-size: 1.4em;
+}
+
+.contact-info li{
+    font-size: 1.1em;
+    color: #FFFF00;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.contact-info p{
+    margin: 0;
+    padding-left: 20px;
+}
+
+.contact-info i{
+    font-size: 1.7em;
+}
+
+
+@media(min-width: 700px) {
+    body {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
