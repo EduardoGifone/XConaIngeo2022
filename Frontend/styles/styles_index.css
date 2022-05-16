@@ -101,7 +101,7 @@ body {
     text-decoration: none;
     font-size: 0.9375rem;
     padding: 0.9375rem;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     letter-spacing: 0.125rem;
 }
 
@@ -112,11 +112,7 @@ body {
 }
 
 .nav__a-login {
-    color: white;
     background-color: #E8A644;
-    text-decoration: none;
-    font-size: 0.9375rem;
-    padding: 0.8125rem 0.9375rem;
     border-radius: 0.1875rem;
     transition: all 0.3s ease;
 }
@@ -482,6 +478,23 @@ body {
         padding: 85px 0;
         padding-top: 75px;
     }
+
+    .nav__a {
+        width: 100%;
+    }
+        
+    .nav__a-login {
+        width: auto;
+    }
+    
+    .nav__a-login:hover {
+        color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(232, 166, 68, 0.8);
+        transform: none;
+        width: 100%;
+    }
+    
+
     /* ============================================== MAIN ============================================== */
 
     .main {
