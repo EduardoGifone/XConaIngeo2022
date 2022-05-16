@@ -88,6 +88,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     transition: 700ms;
+    background-color: transparent;
+    box-shadow: none ;
 }
 
 .nav-abajo {
@@ -100,9 +102,16 @@ body {
     color: white;
     text-decoration: none;
     font-size: 0.9375rem;
-    padding: 0.9375rem;
     transition: all 0.5s ease;
     letter-spacing: 0.125rem;
+    line-height: 0;
+    padding: 1.125rem;
+}
+
+.nav__a-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav__a:hover {
@@ -179,6 +188,7 @@ body {
     align-self: end;
     text-align: right;
     margin-right: 2.5rem;
+    font-weight: 700;
 }
 
 .contador {
@@ -382,6 +392,8 @@ body {
 .redes-sociales__h2 {
     font-size: 2.5rem;
     margin: 1.875rem 4.375rem;
+    font-weight: 600;
+    font-size: 2.875rem;
 }
 
 .redes-sociales__p {
@@ -424,6 +436,7 @@ body {
 
 .ponentes {
     height: 20rem;
+    padding: 1.25rem;
 }
 
 /* ============================================== SECTION SPONSORS ============================================== */
