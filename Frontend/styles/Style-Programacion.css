@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0; /*limpiamos todo*/
+}
+
+.title h1{
+    padding: 40px 0 ;
+    text-align: center;
+    font-size: 2.9em;
+}
+
+.Titulo-Dia h1{
+    margin: 10px;
+}
+.container{
+
+    background: white;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-size: 1.30em;
+}
+
+.container > .Titulo-Dia,
+.container > .Titulo-Dia,
+.container > .horas,
+.container > .topicos{
+    background: #fff;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.container .Titulo-Dia{
+    background: #660109;
+    color: white;
+    grid-column: 1/7;
+}
+
+.container > .topicos h4{
+    background: rgb(255, 215,0);
+}
+
+.container > .Titulo-Dia{
+    grid-column: 1/-1;
+}
+
+.container > .horas{
+    grid-column: span 1;
+}
+
+.container > .topicos{
+    grid-column: 2/7;
+}
+
+.topicos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.container .topico p,
+.container .horas p{
+    padding: 10px;
+}
+
+.container > .topicos h4,
+.container >.horas h4{
+    padding: 20px;
+}
+
+.horas , .topico{
+    display: grid;
+    grid-auto-rows: minmax(10px,110px);
+}
+
+p:nth-child(even){
+    background: #a4a4a4;
+}
+
+
+p, h4{
+    overflow: hidden;
+}
+
