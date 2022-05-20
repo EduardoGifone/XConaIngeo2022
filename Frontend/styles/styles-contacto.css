@@ -304,7 +304,7 @@ ul {
 
 .contact-form {
     background: #fff;
-    color: #ebc402;
+    color: #3c4858;
 }
 
 .contact-form form label {
@@ -312,7 +312,7 @@ ul {
 }
 
 .contact-form h3{
-    color: #ebc402;
+    color: #3c4858;
     font-size: 1.4em;
     text-align: left;
 }
@@ -336,9 +336,8 @@ ul {
     background: none;
     outline: 0;
     color: #000;
-    border-bottom: 1px solid #ebc402;
+    border-bottom: 1px solid #e8a644;
     font-size: large;
-    bor
 }
 
 .contact-form form textarea{
@@ -349,7 +348,7 @@ ul {
     width: 8em;
     outline: 0;
     color: #fff;
-    background: #fdd716;
+    background: #e8a644;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -375,10 +374,10 @@ ul {
 .contact-info h4{
     font-size: 1.4em;
 }
-
+/* FFFF00 */
 .contact-info li{
     font-size: 1.1em;
-    color: #FFFF00;
+    color: #e8a644;
     padding-bottom: 20px;
     padding-top: 30px;
 }
