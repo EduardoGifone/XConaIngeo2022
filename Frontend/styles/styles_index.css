@@ -136,6 +136,55 @@ body {
     color: black;
 }
 
+.nav__a-options {
+    position: relative;
+}
+
+.nav__a__options {
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    width: 100%;
+    background-color: #E8A644;
+    box-shadow: 7px 7px 20px #0008;
+    border-radius: 0 0 4px 4px;
+    transition: all 500ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;    
+}
+
+.nav__a__options__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.nav__a__options__a {
+    font-size: 0.9375rem;
+    margin: 15px auto;
+    text-decoration: none;
+    color:white;
+    transition: 500ms;
+}
+
+.nav__a-options:hover>.nav__a__options {
+    opacity: 1;
+    visibility: visible;
+    top: 32px;
+}
+
+.nav__a__options__a:hover {
+    color: #fff4;
+}
+
+.nav__a-evento {
+    width: 170px;
+}
+
+.nav__a-organizacion {
+    z-index: 100;
+}
+
 /* ============================================== MAIN ============================================== */
 
 .main {
@@ -348,14 +397,14 @@ body {
 
 .figure__capa__h3 {
     font-size: 1.5625rem;
-    margin-top: 1.875rem;
+    margin-top: 20px;
     margin-bottom: 12.5rem;
     transition: all 500ms ease-in-out;
 }
 
 .figure__capa__p {
     font-size: 0.875rem;
-    max-width: 12.5rem;
+    max-width: 220px;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -367,7 +416,7 @@ body {
 }
 
 .figure:hover>.figure__capa .figure__capa__h3 {
-    margin-top: 3.125rem;
+    margin-top: 30px;
     margin-bottom: 0.9375rem;
 }
 
