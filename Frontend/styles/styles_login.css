@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
 }
@@ -7,7 +6,7 @@
     background-image: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
     color: #fff;
     line-height: 1.6;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Verdana', sans-serif;
     padding: 0 1.5em;
 }
 
@@ -59,6 +58,7 @@ img {
     max-width: 100%;
     max-height: 100%;
     margin: 0px auto;
+    
 }
 
 .bee {
@@ -114,14 +114,20 @@ img {
 }
 /* login INFO */
 .login-info {
-    background: #8B0000;
+    background: #790909f3;
     border-radius: 10px;
 }
 
+.login-info .titleInfo{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
 .login-info p {
     text-align: center;
+    font-size: 1.1em;
     margin: 0 0 1rem 0;
-    color: #e8a644;
+    color: #000;
 }
 
 /* LARGE SIZE */
