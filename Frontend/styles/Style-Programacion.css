@@ -9,8 +9,13 @@
     font-size: 2.9em;
 }
 
+.Martes{
+    margin-top: 100px;
+}
+
 .Titulo-Dia h1{
     margin: 10px;
+    font-size: 1.8em;
 }
 .container{
 
@@ -27,7 +32,7 @@
 .container > .horas,
 .container > .topicos{
     background: #fff;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     text-align: center;
 }
 
@@ -36,11 +41,12 @@
     background: #660109;
     color: white;
     grid-column: 1/7;
+    border: 1px solid black;
 }
 
-.container > .topicos h4{
+/*.container > .topicos h4{
     background: rgb(255, 215,0);
-}
+}*/
 
 .container > .Titulo-Dia{
     grid-column: 1/-1;
@@ -61,25 +67,51 @@
 
 .container .topico p,
 .container .horas p{
+    padding: 5px;
+}
+
+.h4horas,.h4topico{
     padding: 10px;
 }
 
-.container > .topicos h4,
-.container >.horas h4{
-    padding: 20px;
+.Paraninfo{
+    line-height: 80px;
+    font-size: 20px;
 }
 
-.horas , .topico{
+.horas,.topico{
     display: grid;
-    grid-auto-rows: minmax(10px,110px);
+    grid-template-rows: repeat(24,1fr);
+    grid-auto-rows: 37px;
+    grid-template-rows: 80px;
 }
 
-p:nth-child(even){
+.container > .horas p:nth-child(even){
     background: #a4a4a4;
 }
 
-
 p, h4{
     overflow: hidden;
+    border: black solid 0.1px;
 }
 
+.EntregaMateriales,.TomaFotos,.Fiesta{
+    grid-row: span 2;
+}
+
+.Bienvenida{
+    grid-row: span 3;
+}
+
+.PonenciaEstudiantil,.PonenciaMagistral{
+    grid-row: span 2;
+}
+
+.MesaRedonda{
+    grid-row: span 3;
+    font-size: 1.3em;
+}
+
+.PonenciaEstudiantil{background-color: bisque;}
+.PonenciaMagistral{background: rgb(179, 225, 172);}
+.CoffeBreak{background: #ff8b3d;}
