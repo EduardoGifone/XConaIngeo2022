@@ -131,6 +131,53 @@ body {
     color: black;
 }
 
+
+.nav__a-options {
+    position: relative;
+}
+
+.nav__a__options {
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    width: 100%;
+    background-color: #E8A644;
+    box-shadow: 7px 7px 20px #0008;
+    border-radius: 0 0 4px 4px;
+    transition: all 500ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;    
+}
+
+.nav__a__options__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.nav__a__options__a {
+    display: block;
+    font-size: 0.9375rem;
+    margin: 7px auto;
+    text-decoration: none;
+    color:white;
+    transition: 500ms;
+}
+
+.nav__a-options:hover>.nav__a__options {
+    opacity: 1;
+    visibility: visible;
+    top: 35px;
+}
+
+.nav__a__options__a:hover {
+    color: #fff4;
+}
+
+.nav__a-evento {
+    width: 170px;
+}
+
 /* ============================================== MAIN ============================================== */
 
 .main {
@@ -171,6 +218,7 @@ body {
     border-radius: 0.4375rem 0.4375rem 0 0;
     box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 1);
     text-align: center;
+    overflow: hidden;
 }
 
 /* ============================================== SECTION CONTENITO ============================================== */
