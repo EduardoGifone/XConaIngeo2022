@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <title>XCONAEINGEOXI</title>
     <meta charset="UTF-8">
@@ -14,6 +15,10 @@
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
+<?php
+#Si ya se logeo que no regrese a login
+session_start();
+?>
 <body>
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
         <i class="icon icon-whatsapp"></i>
@@ -41,7 +46,7 @@
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
             <h1 class="main__contenedor__h1">Iniciar sesión</h1>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
-        </div>        
+        </div>
     </main>
     <article class="article">
         <section class="contenido">
@@ -50,8 +55,8 @@
                     <br>
                     <br>
                     <!-- <h1 class="logo">Iniciar <span>Sesión</span></h1> -->
-        
-                    <div class="login-wrapper animated bounceInUp">           
+
+                    <div class="login-wrapper animated bounceInUp">
                         <div class="login-info">
                             <div class="bee">
                                 <img src="../../Imagenes/people.png" alt="">
@@ -62,13 +67,13 @@
                         </div>
                         <div class="login-form">
                             <h3>Iniciar Sesión</h3>
-                            <form action="">
+                            <form action="../../Backend/LoginController.php" method="post">
                                 <p>
                                     <label><i class="fa-solid fa-user"></i>Correo electrónico</label>
                                     <input type="email" name="user" required>
                                 </p>
                                 <p>
-                                    
+
                                     <label><i class="fa-solid fa-lock"></i>Contraseña</label>
                                     <input type="password" name="pass" required>
                                 </p>
@@ -93,4 +98,5 @@
     <script src="../scripts/contador.js"></script>
     <script src="../scripts/scroll.js"></script>
 </body>
+
 </html>
