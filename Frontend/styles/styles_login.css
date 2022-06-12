@@ -3,6 +3,7 @@
 }
 
 .contenido {
+    background-image: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
     color: #fff;
     line-height: 1.6;
     font-family: 'Verdana', sans-serif;
@@ -132,7 +133,7 @@ img {
 /* LARGE SIZE */
 @media(min-width: 700px) {
     body {
-        padding: 0;
+        padding: 0 4em;
     }
     .login-wrapper {
         display: grid;
@@ -145,8 +146,5 @@ img {
     .login-info ul,
     .login-info p {
         text-align: left;
-    }
-    .contenido{
-        height: 60vh;
     }
 }
