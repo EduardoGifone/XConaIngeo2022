@@ -9,7 +9,7 @@
     font-size: 2.9em;
 }
 
-.Martes,.Miercoles{
+.Martes,.Miercoles,.Jueves,.Viernes,.Sabado,.Domingo{
     margin-top: 50px;
 }
 
@@ -53,18 +53,30 @@
     grid-column: span 1;
 }
 
+/* GRID TEMPLATE*/
 div.Lunes{
     grid-column: 2/7;
     grid-template-columns: repeat(1,1fr);
 }
 
+div.Jueves{
+    grid-column: 2/7;
+    grid-template-columns: repeat(2,1fr);
+}
+
 .container > .topicos{
     grid-column: 2/7;
 }
-
+/* GRID TEMPLATE COLUMNS*/
 .topicos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+}
+
+.topicosJueves{
+    display: grid;
+    grid-column: 2/7;
+    grid-template-columns: repeat(2,1fr);
 }
 
 .container .topico p,
@@ -77,6 +89,7 @@ div.Lunes{
     padding: 10px;
 }
 
+/* GRID TEMPLATE WOWS*/
 .horas,.topico{
     display: grid;
     grid-template-rows: repeat(24,1fr);
@@ -84,6 +97,7 @@ div.Lunes{
     grid-template-rows: 80px;
     margin: 0.3px;
 }
+
 
 .container > .horas p:nth-child(even){
     background: #a4a4a4;
@@ -95,7 +109,7 @@ p, h4{
     margin: 1px;  /*espaciado para modelo 2*/
 }
 
-/*GRID ROW DIA */
+/* GRID ROW  */
 .EntregaMateriales,.TomaFotos,.Fiesta{
     grid-row: span 2;
 }
@@ -117,7 +131,44 @@ p, h4{
     grid-row: span 3;
     font-size: 1.3em;
 }
+/* GRID ROW  JUEVES*/
+.WORKSHOP,.CONCURSO{
+    grid-row: span 20;
+}
 
+.MISS{
+    grid-row: span 5;
+}
+/* GRID ROW  VIERNES*/
+.SALIDAS,.VISITASTECNICAS{
+    grid-row: span 20;
+}
+
+.VISITAMUSEOS{
+    grid-row: span 5;
+}
+
+/* GRID ROW  SABADO*/
+.SALIDASCAMPO,.VISITASGEO{
+    grid-row: span 20;
+}
+
+.CITYTOUR{
+    grid-row: span 5;
+}
+/* GRID ROW  DOMINGO*/
+.COPA{
+    grid-row: span 11;
+}
+.CEREMONIA{
+    grid-row: span 8;
+}
+.Span2{
+    grid-row: span 2;
+}
+.FIESTACLAUSURA{
+    grid-row: span 3;
+}
 /*BACKGROUND ELLOS QUIEREN */
 
 /*.PonenciaEstudiantil{background-color: bisque;}
@@ -154,7 +205,8 @@ h4.Paraninfo{
 }
 
 .MesaRedonda{
-    line-height: 20px;
+    display: grid;
+    place-items: center;
 }
 
 .CoffebreakAlmuerzo,
@@ -179,4 +231,76 @@ h4.Paraninfo{
 .container > div.Lunes .CoffebreakAlmuerzo,
 .container > div.Lunes .CoffeBreak{
     line-height: 20px;font-size: 20px;
+}
+/* CARACTERISTICAS DIA MIERCOLES*/
+
+.ForoGeologico,.NocheTalento{
+    display: grid;
+    place-items: center;
+
+}
+
+/* CARACTERISTICAS DIA JUEVES*/
+.WORKSHOP,.CONCURSO{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    writing-mode: vertical-lr;
+    padding-left: 40%;
+    font-size: 35px;
+}
+
+.MISS{
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    background-color: #E8A644;
+}
+
+/* CARACTERISTICAS DIA VIERNES*/
+.SALIDAS{
+    display: grid;
+    place-items: center;
+    writing-mode: vertical-lr;
+    font-size: 28px;
+}
+.VISITASTECNICAS{
+    display: grid;
+    place-items: center;
+    writing-mode: vertical-lr;
+    font-size: 35px;
+}
+
+.VISITAMUSEOS{
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    background-color: #E8A644;
+}
+
+/* CARACTERISTICAS DIA SABADO*/
+.SALIDASCAMPO,.VISITASGEO{
+    display: grid;
+    place-items: center;
+    writing-mode: vertical-lr;
+    font-size: 35px;
+}
+
+.CITYTOUR{
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    background-color: #E8A644;
+}
+
+/* CARACTERISTICAS DIA SABADO*/
+.COPA,.CEREMONIA{
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+}
+.FIESTACLAUSURA{
+    display: grid;
+    place-items: center;
+    font-size: 30px;
 }
