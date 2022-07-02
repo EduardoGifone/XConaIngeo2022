@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/styles_base.css">
     <link rel="stylesheet" href="../styles/whatsapp.css">
+    <link rel="stylesheet" href="../styles/styles_recuperar.css">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 <body>
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
@@ -18,32 +21,41 @@
     <header class="header">
         <nav class="nav">
             <a href="#" class="nav__a">Inicio</a>
-            <div class="nav__a nav__a-options">
-                Organizacion ᐁ
-                <div class="nav__a__options">
-                    <ul class="nav__a__options__list">
-                        <li><a href="/Frontend/public/Bienvenida.html" class="nav__a__options__a">Bienvenida</a></li>
-                        <li><a href="/Frontend/public/Asesores.html" class="nav__a__options__a">Asesores</a></li>
-                        <li><a href="#" class="nav__a__options__a">Directiva</a></li>
-                    </ul>                    
-                </div>
-            </div>
-            <a href="#" class="nav__a-img"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
-            <a href="/Frontend/public/contacto.html" class="nav__a">Contacto</a>
-            <a href="/Frontend/public/login.html" class="nav__a nav__a-login">Iniciar Sesion</a>
+            <a href="#" class="nav__a">Organizacion</a>
+            <a href="#"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
+            <a href="#" class="nav__a">Contacto</a>
+            <a href="#" class="nav__a nav__a-login">Iniciar Sesion</a>
         </nav>
     </header>
     <main class="main">
         <div class="main__contenedor">
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
-            <h1 class="main__contenedor__h1">Organizacion</h1>
+            <h1 class="main__contenedor__h1">Recuperar clave</h1>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </div>        
     </main>
     <article class="article">
         <section class="contenido">
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
-
+            <div class="content ">
+                <img class="bee" src="../../Imagenes/message.jpg" >
+                <h3>Recuperar mi contraseña</h3>
+                <p class="info">Se enviará un mensaje con tu contraseña a tu correo.</p>
+                <div class="formulario ">
+                    <form action="">
+                        <p>
+                            <label><i class="fa-solid fa-envelope"></i>Correo electrónico</label>
+                            <input type="email" name="user" required>
+                        </p>
+                        <p class="block">
+                            <button>
+                                Recuperar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                </div>
+                
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </section>
     </article>

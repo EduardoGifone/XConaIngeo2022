@@ -9,8 +9,13 @@
     font-size: 2.9em;
 }
 
+.Martes,.Miercoles,.Jueves,.Viernes,.Sabado,.Domingo{
+    margin-top: 50px;
+}
+
 .Titulo-Dia h1{
     margin: 10px;
+    font-size: 1.8em;
 }
 .container{
 
@@ -27,7 +32,7 @@
 .container > .horas,
 .container > .topicos{
     background: #fff;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     text-align: center;
 }
 
@@ -36,12 +41,10 @@
     background: #660109;
     color: white;
     grid-column: 1/7;
+    border: 1px solid black;
 }
 
-.container > .topicos h4{
-    background: rgb(255, 215,0);
-}
-
+/* GRIF COUMNS*/
 .container > .Titulo-Dia{
     grid-column: 1/-1;
 }
@@ -50,36 +53,254 @@
     grid-column: span 1;
 }
 
+/* GRID TEMPLATE*/
+div.Lunes{
+    grid-column: 2/7;
+    grid-template-columns: repeat(1,1fr);
+}
+
+div.Jueves{
+    grid-column: 2/7;
+    grid-template-columns: repeat(2,1fr);
+}
+
 .container > .topicos{
     grid-column: 2/7;
 }
-
+/* GRID TEMPLATE COLUMNS*/
 .topicos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 
+.topicosJueves{
+    display: grid;
+    grid-column: 2/7;
+    grid-template-columns: repeat(2,1fr);
+}
+
 .container .topico p,
 .container .horas p{
+    padding: 5px;
+}
+
+
+.h4horas,.h4topico{
     padding: 10px;
 }
 
-.container > .topicos h4,
-.container >.horas h4{
-    padding: 20px;
-}
-
-.horas , .topico{
+/* GRID TEMPLATE WOWS*/
+.horas,.topico{
     display: grid;
-    grid-auto-rows: minmax(10px,110px);
+    grid-template-rows: repeat(24,1fr);
+    grid-auto-rows: 37px;
+    grid-template-rows: 80px;
+    margin: 0.3px;
 }
 
-p:nth-child(even){
+
+.container > .horas p:nth-child(even){
     background: #a4a4a4;
 }
 
-
 p, h4{
     overflow: hidden;
+    border: black solid 0.1px;
+    margin: 1px;  /*espaciado para modelo 2*/
 }
 
+/* GRID ROW  */
+.EntregaMateriales,.TomaFotos,.Fiesta{
+    grid-row: span 2;
+}
+
+.Bienvenida{
+    grid-row: span 3;
+}
+
+.PonenciaEstudiantil,.PonenciaMagistral{
+    grid-row: span 2;
+}
+
+.MesaRedonda{
+    grid-row: span 3;
+    font-size: 1.3em;
+}
+
+.ForoGeologico,.NocheTalento{
+    grid-row: span 3;
+    font-size: 1.3em;
+}
+/* GRID ROW  JUEVES*/
+.WORKSHOP,.CONCURSO{
+    grid-row: span 20;
+}
+
+.MISS{
+    grid-row: span 5;
+}
+/* GRID ROW  VIERNES*/
+.SALIDAS,.VISITASTECNICAS{
+    grid-row: span 20;
+}
+
+.VISITAMUSEOS{
+    grid-row: span 5;
+}
+
+/* GRID ROW  SABADO*/
+.SALIDASCAMPO,.VISITASGEO{
+    grid-row: span 20;
+}
+
+.CITYTOUR{
+    grid-row: span 5;
+}
+/* GRID ROW  DOMINGO*/
+.COPA{
+    grid-row: span 11;
+}
+.CEREMONIA{
+    grid-row: span 8;
+}
+.Span2{
+    grid-row: span 2;
+}
+.FIESTACLAUSURA{
+    grid-row: span 3;
+}
+/*BACKGROUND ELLOS QUIEREN */
+
+/*.PonenciaEstudiantil{background-color: bisque;}
+.PonenciaMagistral{background: rgb(179, 225, 172);}
+.CoffeBreak{background: #ff8b3d;}*/
+
+/*BACKGROUND NOSOTROS  #660109 #E8A644 */
+
+/*.EntregaMateriales,.TomaFotos,.PonenciaMagistral*/
+.container > .topicos p:nth-child(even){
+    background: #E8A644;
+}
+
+/*line heuight general */
+
+h4.Paraninfo{
+    line-height: 80px;
+    font-size: 20px;
+}
+
+.h4topico{
+    line-height: 30px;
+}
+.EntregaMateriales,
+.TomaFotos,
+.PonenciaEstudiantil,
+.PonenciaMagistral,
+.Fiesta{
+    line-height: 60px;;
+}
+
+.Bienvenida{
+    line-height: 100px;
+}
+
+.MesaRedonda{
+    display: grid;
+    place-items: center;
+}
+
+.CoffebreakAlmuerzo,
+.CoffeBreak{
+    line-height: 20px;
+}
+
+/*Line height y font size del dia Lunes*/
+
+.container > div.Lunes .EntregaMateriales,
+.container > div.Lunes .TomaFotos,
+.container > div.Lunes .PonenciaEstudiantil,
+.container > div.Lunes .PonenciaMagistral,
+.container > div.Lunes .Fiesta{
+    line-height: 60px;font-size: 20px;
+}
+
+.container > div.Lunes .Bienvenida{
+    line-height: 100px;font-size: 20px;
+}
+
+.container > div.Lunes .CoffebreakAlmuerzo,
+.container > div.Lunes .CoffeBreak{
+    line-height: 20px;font-size: 20px;
+}
+/* CARACTERISTICAS DIA MIERCOLES*/
+
+.ForoGeologico,.NocheTalento{
+    display: grid;
+    place-items: center;
+
+}
+
+/* CARACTERISTICAS DIA JUEVES*/
+.WORKSHOP,.CONCURSO{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    writing-mode: vertical-lr;
+    padding-left: 40%;
+    font-size: 35px;
+}
+
+.MISS{
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    background-color: #E8A644;
+}
+
+/* CARACTERISTICAS DIA VIERNES*/
+.SALIDAS{
+    display: grid;
+    place-items: center;
+    writing-mode: vertical-lr;
+    font-size: 28px;
+}
+.VISITASTECNICAS{
+    display: grid;
+    place-items: center;
+    writing-mode: vertical-lr;
+    font-size: 35px;
+}
+
+.VISITAMUSEOS{
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    background-color: #E8A644;
+}
+
+/* CARACTERISTICAS DIA SABADO*/
+.SALIDASCAMPO,.VISITASGEO{
+    display: grid;
+    place-items: center;
+    writing-mode: vertical-lr;
+    font-size: 35px;
+}
+
+.CITYTOUR{
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    background-color: #E8A644;
+}
+
+/* CARACTERISTICAS DIA SABADO*/
+.COPA,.CEREMONIA{
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+}
+.FIESTACLAUSURA{
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+}
