@@ -21,10 +21,10 @@
     </a>
     <?php
     if (!isset($_SESSION['correo'])){
-        include("headerPublico.php");
+        include("HeaderPublic.php");
     }
     else{
-        include("headerPrivado.php");
+        include("HeaderPrivate.php");
     }
     ?>
     <main class="main">

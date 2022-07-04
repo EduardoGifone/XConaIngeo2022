@@ -25,14 +25,14 @@
     </a>
     <header class="header">
         <nav class="nav">
-            <a href="#" class="nav__a">Inicio</a>
+            <a href="index.php" class="nav__a">Inicio</a>
             <div class="nav__a nav__a-options nav__a-organizacion">
                 Organizacion ᐁ
                 <div class="nav__a__options">
                     <ul class="nav__a__options__list">
-                        <li><a href="/Frontend/public/Bienvenida.html" class="nav__a__options__a">Bienvenida</a></li>
-                        <li><a href="/Frontend/public/Asesores.html" class="nav__a__options__a">Asesores</a></li>
-                        <li><a href="/Frontend/public/Directiva.html" class="nav__a__options__a">Directiva</a></li>
+                        <li><a href="Bienvenida.php" class="nav__a__options__a">Bienvenida</a></li>
+                        <li><a href="Asesores.php" class="nav__a__options__a">Asesores</a></li>
+                        <li><a href="Directiva.php" class="nav__a__options__a">Directiva</a></li>
                     </ul>                    
                 </div>
             </div>
@@ -40,15 +40,15 @@
                 Evento ᐁ
                 <div class="nav__a__options">
                     <ul class="nav__a__options__list">
-                        <li><a href="/Frontend/public/Programacion.html" class="nav__a__options__a">Programacion</a></li>
-                        <li><a href="/Frontend/public/Ponentes.html" class="nav__a__options__a">Ponentes</a></li>
+                        <li><a href="Programacion.php" class="nav__a__options__a">Programacion</a></li>
+                        <li><a href="Ponentes.php" class="nav__a__options__a">Ponentes</a></li>
                     </ul>                    
                 </div>
             </div>
             <a href="#" class="nav__a-img"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
-            <a href="/Frontend/public/profile.html" class="nav__a">Usuario</a>
-            <a href="/Frontend/public/contacto.html" class="nav__a">Contacto</a>
-            <a href="/Frontend/public/login.html" class="nav__a nav__a-login">Iniciar Sesion</a>
+            <a href="profile.php" class="nav__a">Usuario</a>
+            <a href="contacto.php" class="nav__a">Contacto</a>
+            <a href="login.php" class="nav__a nav__a-login">Iniciar Sesion</a>
         </nav>
     </header>
     <main class="main">
@@ -85,7 +85,7 @@
                         <li><i class="icono fas fa-at"></i> Email</li>
                         <li><i class="icono fas fa-ballot"></i>Registro</li>
                     </ul>
-                    <form action="salir.php">
+                    <form action="Logout.php">
                         <button>Cerrar sesion</button>
                     </form>
                 </div>
