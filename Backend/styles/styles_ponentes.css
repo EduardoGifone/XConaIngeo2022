@@ -1,0 +1,91 @@
+
+/* ------------------------------------------- */
+/*          Estilos de Materialize             */
+/* ------------------------------------------- */
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 260px;
+    height: 360px;
+    /*width: 360px;
+    height: 460px;*/
+}
+
+.carousel{
+    padding-top: 0;
+    height: 30rem; /* espacio de ponentes*/
+}
+
+.indicators {
+    margin-top: 40px;
+    padding-top: 230px;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    /*height: 700vh;*/
+}
+
+
+.contenedor img{
+    height: auto;
+    width: auto;
+    max-width: 260px;
+    max-height: 360px;
+    /*width: 100%;
+    height: 50rem;/*100%;*/
+    filter: brightness(70%); /*opacar una imaen*/
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+@media (min-width: 769px) {
+
+    .carousel{
+        padding-top: 0;
+        height: 40rem; /* espacio de ponentes*/
+    }
+
+    .carousel .carousel-item {
+        width: 380px;
+        height: 480px;
+    }
+
+    .contenedor img {
+        height: auto;
+        width: auto;
+        max-width: 380px;
+        max-height: 480px;
+        filter: brightness(70%); /*opacar una imaen*/
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+}
+
+.carousel .carousel-item h3 {
+    width: 260px;
+    font-size: 20px;
+    margin: -7px 0 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-weight: 50rem;
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+@media (min-width: 769px) {
+    .carousel .carousel-item h3 {
+        width: 380px;
+        font-size: 25px;
+    }
+}

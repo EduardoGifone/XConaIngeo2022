@@ -8,7 +8,7 @@
     <meta name="keywords" content="XCONAEINGEO UNSAAC CUSCO 2022">
     <link rel="icon" href="../../Imagenes/LOGO SIN FONDO-13.png">
     <script src="https://kit.fontawesome.com/04ab370843.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/normalize.css">   
     <link rel="stylesheet" href="../styles/styles_base.css">
     <link rel="stylesheet" href="../styles/whatsapp.css">
     <link rel="stylesheet" href="../styles/styles_login.css">
@@ -25,20 +25,20 @@ session_start();
     </a>
     <header class="header">
         <nav class="nav">
-            <a href="/Frontend/public/index.html" class="nav__a">Inicio</a>
+            <a href="index.php" class="nav__a">Inicio</a>
             <div class="nav__a nav__a-options">
                 Organizacion ᐁ
                 <div class="nav__a__options">
                     <ul class="nav__a__options__list">
-                        <li><a href="/Frontend/public/Bienvenida.html" class="nav__a__options__a">Bienvenida</a></li>
-                        <li><a href="/Frontend/public/Asesores.html" class="nav__a__options__a">Asesores</a></li>
-                        <li><a href="#" class="nav__a__options__a">Directiva</a></li>
+                        <li><a href="Bienvenida.php" class="nav__a__options__a">Bienvenida</a></li>
+                        <li><a href="Asesores.php" class="nav__a__options__a">Asesores</a></li>
+                        <li><a href="Directiva.php" class="nav__a__options__a">Directiva</a></li>
                     </ul>                    
                 </div>
             </div>
-            <a href="/Frontend/public/index.html" class="nav__a-img"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
-            <a href="/Frontend/public/contacto.html" class="nav__a">Contacto</a>
-            <a href="#" class="nav__a nav__a-login">Iniciar Sesion</a>
+            <a href="index.php" class="nav__a-img"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
+            <a href="contacto.php" class="nav__a">Contacto</a>
+            <a href="Login.php" class="nav__a nav__a-login">Iniciar Sesion</a>
         </nav>
     </header>
     <main class="main">
@@ -65,9 +65,9 @@ session_start();
                             <p>¡Contáctanos para obtener una cuenta a solo S/100. Podrás tener acceso al material de nuestros ponentes, 
                                 cronograma de actividades y mucho más!</p>
                         </div>
-                        <div class="login-form">
+                        <div class="login-form">|
                             <h3>Iniciar Sesión</h3>
-                            <form action="../../Backend/LoginController.php" method="post">
+                            <form action="LoginController.php" method="post">
                                 <p>
                                     <label><i class="fa-solid fa-user"></i>Correo electrónico</label>
                                     <input type="email" name="user" required>
@@ -82,7 +82,7 @@ session_start();
                                         Iniciar sesión
                                     </button>
                                 </p>
-                                <a href="recuperarCon.html">Olvidé mi contraseña</a>
+                                <a href="recuperarCon.php">Olvidé mi contraseña</a>
                             </form>
                         </div>
                     </div>
