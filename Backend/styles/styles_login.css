@@ -1,8 +1,7 @@
-* {
+*{
     box-sizing: border-box;
 }
-
-.contenido {
+.contenido{
     background-image: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
     color: #fff;
     line-height: 1.6;
@@ -10,50 +9,6 @@
     padding: 0 1.5em;
 }
 
-.container {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
-}
-
-.login-wrapper {
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-}
-
-.login-wrapper > * {
-    padding: 1em;
-}
-
-.login-form {
-    background: rgb(250, 241, 241);
-}
-
-.login-form form {
-    display: grid;
-}
-
-.login-form form label {
-    display: block;
-    font-size: 1.08em;
-    text-align: left;
-    color: #3c4858;
-}
-.login-form h3{
-    font-size: 1.3em;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    color: #3c4858;
-}
-
-.login-form form p {
-    margin: 0;
-    padding: 1em;
-}
-.login-form i{
-    margin-right: 8px;
-    font-size: 1.1em;
-}
 img {
     max-width: 100%;
     max-height: 100%;
@@ -62,20 +17,67 @@ img {
 }
 
 .bee {
-    height: 200px;
+    height: 180px;
     width: 200px;
     display:block;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.login-form input{
+.content {
+    width: 500px;
+    height: 610px;
+    background: #ffffff;
+    color: #000;
+    top: 40%;
+    left: 35%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+
+.content h3{
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.formulario form {
+    display: grid;
+}
+
+.formulario form label {
+    display: block;
+    font-size: 1.17em;
+    text-align: left;
+    color: #3c4858;
+}
+
+.content .info{
+    font-size: 12px;
+    color: #8B0000;
+    padding-top: 0;
+}
+.formulario form p {
+    margin: 0;
+    padding: 1em;
+}
+.formulario i{
+    margin-right: 8px;
+    font-size: 1.1em;
+}
+
+.formulario input{
     font-size: 15px;
 }
 
-.login-form form button,
-.login-form form input {
+.formulario form button,
+.formulario form input {
     width: 100%;
     padding: .7em;
     border: none;
@@ -85,8 +87,9 @@ img {
     border-bottom: 1px solid #e8a644;
 }
 
-.login-form form button {
+.formulario form button {
     background: #e8a644;
+    width: 70%;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -94,57 +97,21 @@ img {
     border-radius: 10px;
 }
 
-.login-form form button:hover,
-.login-form form button:focus {
+.formulario form button:hover,
+.formulario form button:focus {
     background: #8B0000;
     color: #fff;
     transition: background-color 0.5s ease-out;
     outline: 0;
 }
 
-.login-form a{
+.formulario form a{
     font-size: 15px;
     color: #e8a644;
     text-align: left;
 }
 
-.login-form a:hover{
+.formulario form a:hover{
     color: #5c0101;
     transition: 0.2s;
-}
-/* login INFO */
-.login-info {
-    background: #790909f3;
-    border-radius: 10px;
-}
-
-.login-info .titleInfo{
-    font-size: 1.2em;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-}
-.login-info p {
-    text-align: center;
-    font-size: 1.1em;
-    margin: 0 0 1rem 0;
-    color: #000;
-}
-
-/* LARGE SIZE */
-@media(min-width: 700px) {
-    body {
-        padding: 0 4em;
-    }
-    .login-wrapper {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    .login-wrapper > * {
-        padding: 2em;
-    }
-    .login-info h4,
-    .login-info ul,
-    .login-info p {
-        text-align: left;
-    }
 }
