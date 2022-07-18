@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/styles_base.css">
     <link rel="stylesheet" href="../styles/whatsapp.css">
-    <link rel="stylesheet" href="../styles/styles_recuperar.css">
+    <link rel="stylesheet" href="../styles/styles_login.css">
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
@@ -18,54 +18,39 @@
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
         <i class="icon icon-whatsapp"></i>
     </a>
-    <header class="header">
-        <nav class="nav">
-            <a href="index.php" class="nav__a">Inicio</a>
-            <div class="nav__a nav__a-options">
-                Organizacion ᐁ
-                <div class="nav__a__options">
-                    <ul class="nav__a__options__list">
-                        <li><a href="Bienvenida.php" class="nav__a__options__a">Bienvenida</a></li>
-                        <li><a href="Asesores.php" class="nav__a__options__a">Asesores</a></li>
-                        <li><a href="Directiva.php" class="nav__a__options__a">Directiva</a></li>
-                    </ul>                    
-                </div>
-            </div>
-            <a href="index.php" class="nav__a-img"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
-            <a href="contacto.php" class="nav__a">Contacto</a>
-            <a href="Login.php" class="nav__a nav__a-login">Iniciar Sesion</a>
-        </nav>
-    </header>
+    <?php
+        include("HeaderPublic.php");
+    ?>
     <main class="main">
         <div class="main__contenedor">
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
-            <h1 class="main__contenedor__h1">Recuperar clave</h1>
+            <h1 class="main__contenedor__h1">Iniciar sesión</h1>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </div>        
     </main>
     <article class="article">
         <section class="contenido">
-            <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
-            <div class="content ">
-                <img class="bee" src="../../Imagenes/message.jpg" >
-                <h3>Recuperar mi contraseña</h3>
-                <p class="info">Se enviará un mensaje con tu contraseña a tu correo.</p>
-                <div class="formulario ">
-                    <form action="">
+            <div class="content animated bounceInUp">
+                <img class="bee" src="../../Imagenes/people.png" alt="">
+                <div class="formulario">
+                    <form action="LoginController.php" method="POST">
                         <p>
-                            <label><i class="fa-solid fa-envelope"></i>Correo electrónico</label>
+                            <label><i class="fa-solid fa-user"></i>Correo electrónico</label>
                             <input type="email" name="user" required>
+                        </p>
+                        <p>                          
+                            <label><i class="fa-solid fa-lock"></i>Contraseña</label>
+                            <input type="password" name="pass" required>
                         </p>
                         <p class="block">
                             <button>
-                                Recuperar
+                                Iniciar sesión
                             </button>
                         </p>
+                        <a href="recuperarCon.php">Olvidé mi contraseña</a>
                     </form>
-                </div>
-                </div>
-                
-            <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
+                </div>      
+            </div>
         </section>
     </article>
     <footer class="footer">
