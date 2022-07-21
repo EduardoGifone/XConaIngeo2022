@@ -12,9 +12,9 @@
     <link rel="icon" href="../../Imagenes/LOGO SIN FONDO-13.png">
     <script src="https://kit.fontawesome.com/04ab370843.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="../styles/styles_Bienvenida.css">
     <link rel="stylesheet" href="../styles/styles_base.css">
     <link rel="stylesheet" href="../styles/whatsapp.css">
+    <link rel="stylesheet" href="../styles/styles-contacto.css">
 </head>
 <body>
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
@@ -30,21 +30,21 @@
     ?>
     <main class="main">
         <div class="main__contenedor">
-            <h1 class="main__contenedor__h1">BIENVENIDA</h1>            
+            <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
+            <h1 class="main__contenedor__h1">Cambiar contraseña</h1>
+            <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </div>        
     </main>
-
     <article class="article">
-        <section class="Bienvenida">
-            <figure class="Imagen__Bienvenida" >
-                <img src="../../Imagenes/CONA.png" width="960" alt="Bienvenida Xconaeingeo2022" class="figure__img">
-            </figure>
+        <section class="contenido">
+            <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
+
+            <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </section>
     </article>
     <footer class="footer">
         <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
     </footer>
-
     <script src="../scripts/simplyCountdown.min.js"></script>
     <script src="../scripts/contador.js"></script>
     <script src="../scripts/scroll.js"></script>

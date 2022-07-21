@@ -3,7 +3,7 @@
     if(!isset($_SESSION['correo'])){
         header("location: login.php");
     }
-    ?>
+?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -35,6 +35,9 @@
         <section class="seccion-perfil-usuario">
             <div class="perfil-usuario-header">
                 <div class="perfil-usuario-portada">
+                    <div class="ticket">
+                        <p class="ticket__p">NRO: 1002</p>
+                    </div>
                     <img src=" " alt="portada de tematica">
                     <div class="perfil-usuario-avatar">
                         <img src="  " alt="avatar">

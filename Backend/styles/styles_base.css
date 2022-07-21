@@ -178,6 +178,13 @@ body {
     width: 170px;
 }
 
+.nav__a-organizacion {
+    z-index: 100;
+}
+
+.nav__a-usuario {
+    width: 235px;
+}
 /* ============================================== MAIN ============================================== */
 
 .main {
@@ -188,7 +195,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: 60vh;
 }
 
 .main__contenedor {
@@ -196,8 +203,9 @@ body {
     margin: auto;
     height: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .main__contenedor__h1{
@@ -263,14 +271,14 @@ body {
     }
 
     .nav {
-        padding-top: 70px;
+        padding-top: 100px;
         display: flex;
         flex-direction: column;
     }
     
     .nav-abajo {
-        padding: 85px 0;
-        padding-top: 75px;
+        padding: 110px 0;
+        padding-top: 100px;
     }
 
     .nav__a {
