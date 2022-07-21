@@ -29,12 +29,12 @@
         <i class="icon icon-whatsapp"></i>
     </a>
     <?php
-    ///if (!isset($_SESSION['correo'])){
-    ///    include("HeaderPublic.php");
-    ///}
-    ///else{
+    if (!isset($_SESSION['correo'])){
+        include("HeaderPublic.php");
+    }
+    else{
         include("HeaderPrivate.php");
-    ///}
+    }
     ?>
     <main class="main">
         <div class="main__contenedor">
