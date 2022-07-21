@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/styles_base.css">
     <link rel="stylesheet" href="../styles/whatsapp.css">
-    <link rel="stylesheet" href="../styles/styles-contacto.css">
+    <link rel="stylesheet" href="../styles/styles_recuperar.css">
 </head>
 <body>
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
@@ -38,7 +38,31 @@
     <article class="article">
         <section class="contenido">
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
-
+            <div class="content ">
+                <img class="bee" src="../../Imagenes/message.jpg" >
+                <h3>Cambiar mi contraseña</h3>
+                <div class="formulario ">
+                    <form action="">
+                        <p>
+                            <label><i class="fa-solid fa-envelope"></i>Contraseña actual</label>
+                            <input type="password" name="user" required>
+                        </p>
+                        <p>
+                            <label><i class="fa-solid fa-envelope"></i>Nueva contraseña</label>
+                            <input type="password" name="user" required>
+                        </p>
+                        <p>
+                            <label><i class="fa-solid fa-envelope"></i>Vuelva a escribir la nueva contraseña</label>
+                            <input type="password" name="user" required>
+                        </p>
+                        <p class="block">
+                            <button>
+                                Cambiar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+            </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </section>
     </article>
