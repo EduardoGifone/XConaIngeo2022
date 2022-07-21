@@ -3,11 +3,10 @@
 }
 
 .contenido {
-    background-image: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
     color: #fff;
     line-height: 1.6;
-    font-family: 'Verdana', sans-serif;
     padding: 0 1.5em;
+    height: auto;
 }
 
 img {
@@ -28,14 +27,8 @@ img {
 }
 
 .content {
-    width: 500px;
-    height: 500px;
     background: #ffffff;
     color: #000;
-    top: 82%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
     box-sizing: border-box;
     padding: 20px 50px;
     border-radius: 30px;

@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/04ab370843.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/styles_Asesores.css">
+    <link rel="stylesheet" href="../styles/styles_base.css">
     <link rel="stylesheet" href="../styles/whatsapp.css">
 </head>
 <body>

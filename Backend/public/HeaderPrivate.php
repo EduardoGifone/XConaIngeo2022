@@ -21,8 +21,19 @@
             </div>
         </div>
         <a href="#" class="nav__a-img"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
-        <a href="profile.php" class="nav__a">Usuario</a>
+
+        <div class="nav__a nav__a-options nav__a-usuario">
+            Usuario ᐁ
+            <div class="nav__a__options">
+                <ul class="nav__a__options__list">
+                    <li><a href="profile.php" class="nav__a__options__a">Datos Usuario</a></li>
+                    <li><a href="cambiarCon.php" class="nav__a__options__a">Cambiar Contraseña</a></li>
+                </ul>                    
+            </div>
+        </div>
+
+
         <a href="contacto.php" class="nav__a">Contacto</a>
-        <a href="login.php" class="nav__a nav__a-login">Iniciar Sesion</a>
+        <a href="Logout.php" class="nav__a nav__a-login">Cerrar Sesion</a>
     </nav>
 </header>
