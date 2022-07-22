@@ -1,3 +1,9 @@
+<?php 
+    session_start();
+    if(isset($_SESSION["contrasenia"])){
+        header("location: profile.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -11,8 +17,11 @@
     <link rel="stylesheet" href="../styles/styles_base.css">
     <link rel="stylesheet" href="../styles/whatsapp.css">
     <link rel="stylesheet" href="../styles/styles_login.css">
+    <link rel="stylesheet" href="../styles/styles_alert.css">
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
@@ -33,32 +42,79 @@
             <div class="content animated bounceInUp">
                 <img class="bee" src="../../Imagenes/people.png" alt="">
                 <div class="formulario">
-                    <form action="LoginController.php" method="POST">
+                    <form action="LoginController.php" method="POST" name="formLog">
                         <p>
                             <label><i class="fa-solid fa-user"></i>Correo electrónico</label>
-                            <input type="email" name="user" required>
+                            <?php 
+                            if (!isset($_SESSION["correo"])){
+                            ?>
+                            <input type="email" name="user" required value="">
+                            <?php  
+                            } 
+                            else{ 
+                                $us = $_SESSION["correo"]; 
+                                ?>                  
+                                <input type="email" name="user" required value=<?php echo $us?>>
+                            <?php
+                            }
+                            ?>
                         </p>
                         <p>                          
                             <label><i class="fa-solid fa-lock"></i>Contraseña</label>
-                            <input type="password" name="pass" required>
+                            <input type="password" name="pass" maxlength="20" required>
                         </p>
                         <p class="block">
                             <button>
                                 Iniciar sesión
                             </button>
                         </p>
-                        <a href="recuperarCon.php">Olvidé mi contraseña</a>
+                        <a href="recuperarCon.php #foot">Olvidé mi contraseña</a>
                     </form>
                 </div>      
             </div>
         </section>
     </article>
     <footer class="footer">
-        <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        <section id="foot">
+            <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        </section>
     </footer>
 
     <script src="../scripts/simplyCountdown.min.js"></script>
     <script src="../scripts/contador.js"></script>
     <script src="../scripts/scroll.js"></script>
+    
 </body>
 </html>
+<?php  
+    if (isset($_SESSION["errorEmail"])){
+        $boolEmail = $_SESSION["errorEmail"];
+        if ($boolEmail){
+            $_SESSION["errorEmail"] = false;
+            ?>
+            <script>
+                swal({buttons: false, 
+                    title: "Error",
+                    icon: "error",
+                    text: "No existe el correo ingresado",
+                    timer: 2000,});
+            </script>
+            <?php
+        }
+    }
+    if(isset($_SESSION["errorPassword"])){
+        $boolPass = $_SESSION["errorPassword"];
+        if($boolPass){
+            $_SESSION["errorPassword"] = false;
+        ?>
+            <script>
+                swal({buttons: false, 
+                title: "Error!",
+                icon: "error",
+                text: "Contraseña incorrecta",
+                timer: 2000,});
+            </script>
+        <?php
+        }
+    }   
+?>

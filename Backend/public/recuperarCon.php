@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -11,8 +14,11 @@
     <link rel="stylesheet" href="../styles/styles_base.css">
     <link rel="stylesheet" href="../styles/whatsapp.css">
     <link rel="stylesheet" href="../styles/styles_recuperar.css">
+    <link rel="stylesheet" href="../styles/styles_alert.css">
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
@@ -36,10 +42,10 @@
                 <h3>Recuperar mi contraseña</h3>
                 <p class="info">Se enviará un mensaje con tu contraseña a tu correo.</p>
                 <div class="formulario ">
-                    <form action="">
+                    <form action="getPasswordController.php" method="POST">
                         <p>
                             <label><i class="fa-solid fa-envelope"></i>Correo electrónico</label>
-                            <input type="email" name="user" required>
+                            <input type="email" name="correoInput" required>
                         </p>
                         <p class="block">
                             <button>
@@ -48,17 +54,55 @@
                         </p>
                     </form>
                 </div>
-            </div>
-                
+            </div>            
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </section>
     </article>
     <footer class="footer">
-        <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        <section id="foot">
+            <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        </section>
     </footer>
-
     <script src="../scripts/simplyCountdown.min.js"></script>
     <script src="../scripts/contador.js"></script>
     <script src="../scripts/scroll.js"></script>
 </body>
 </html>
+<?php   
+    if (isset($_SESSION["errorCorreoInput"])){
+        $boolEmail = $_SESSION["errorCorreoInput"];
+        if ($boolEmail){
+            $_SESSION["errorCorreoInput"] = false;
+            ?>
+            <!-- <script src="../scripts/sweetAlertEmail.js"></script> -->
+            <script>
+                swal({buttons: false, 
+                    title: "Error",
+                    icon: "error",
+                    text: "No existe el correo ingresado",
+                    timer: 2000,});
+            </script>
+            <?php
+        }
+    }
+    if(isset($_SESSION["claveEnviada"])){
+        $boolEnviado = $_SESSION["claveEnviada"];
+        if($boolEnviado){
+            $_SESSION["claveEnviada"] = false;
+            ?>
+            <script>
+                swal({buttons: false, 
+                title: "Correo enviado",
+                icon: "success",
+                text: "Se ha enviado tu contraseña, por favor revisa tu correo",
+                timer: 3000,});
+            </script>
+            <style>
+                .swal-title{
+                    color:green;
+                }
+            </style>
+            <?php
+        }
+    }  
+?>

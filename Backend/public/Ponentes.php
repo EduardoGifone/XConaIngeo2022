@@ -21,7 +21,7 @@
         <i class="icon icon-whatsapp"></i>
     </a>
     <?php
-    if (!isset($_SESSION['correo'])){
+    if (!isset($_SESSION['contrasenia'])){
         include("HeaderPublic.php");
     }
     else{

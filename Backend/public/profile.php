@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if(!isset($_SESSION['correo'])){
+    if(!isset($_SESSION['contrasenia'])){
         header("location: login.php");
     }
 ?>
