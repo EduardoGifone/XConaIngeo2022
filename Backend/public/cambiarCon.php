@@ -1,7 +1,6 @@
-<?php
+<?php 
     session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -15,13 +14,15 @@
     <link rel="stylesheet" href="../styles/styles_base.css">
     <link rel="stylesheet" href="../styles/whatsapp.css">
     <link rel="stylesheet" href="../styles/styles_recuperar.css">
+    <!-- SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
         <i class="icon icon-whatsapp"></i>
     </a>
     <?php
-    if (!isset($_SESSION['correo'])){
+    if (!isset($_SESSION['contrasenia'])){
         include("HeaderPublic.php");
     }
     else{
@@ -42,18 +43,18 @@
                 <img class="bee" src="../../Imagenes/message.jpg" >
                 <h3>Cambiar mi contraseña</h3>
                 <div class="formulario ">
-                    <form action="">
+                    <form action="changePasswordController.php" method="POST">
                         <p>
                             <label><i class="fa-solid fa-envelope"></i>Contraseña actual</label>
-                            <input type="password" name="user" required>
+                            <input type="password" name="actualPass" minlength="6"  maxlength="20">
                         </p>
                         <p>
                             <label><i class="fa-solid fa-envelope"></i>Nueva contraseña</label>
-                            <input type="password" name="user" required>
+                            <input type="password" name="newPass" minlength="6"   maxlength="20" required>
                         </p>
                         <p>
                             <label><i class="fa-solid fa-envelope"></i>Vuelva a escribir la nueva contraseña</label>
-                            <input type="password" name="user" required>
+                            <input type="password" name="confNewPass" minlength="6"  maxlength="20" required>
                         </p>
                         <p class="block">
                             <button>
@@ -67,10 +68,15 @@
         </section>
     </article>
     <footer class="footer">
-        <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        <section id="foot">
+            <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        </section>
     </footer>
     <script src="../scripts/simplyCountdown.min.js"></script>
     <script src="../scripts/contador.js"></script>
     <script src="../scripts/scroll.js"></script>
 </body>
 </html>
+<?php
+    include('alertasCambiarCon.php');
+?>

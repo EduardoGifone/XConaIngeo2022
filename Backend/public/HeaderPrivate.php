@@ -27,7 +27,7 @@
             <div class="nav__a__options">
                 <ul class="nav__a__options__list">
                     <li><a href="profile.php" class="nav__a__options__a">Datos Usuario</a></li>
-                    <li><a href="cambiarCon.php" class="nav__a__options__a">Cambiar Contraseña</a></li>
+                    <li><a href="cambiarCon.php #foot" class="nav__a__options__a">Cambiar Contraseña</a></li>
                 </ul>                    
             </div>
         </div>
