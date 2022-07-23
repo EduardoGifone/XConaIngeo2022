@@ -37,7 +37,7 @@
     <article class="article">
         <section class="Bienvenida">
             <figure class="Imagen__Bienvenida" >
-                <img src="../../Imagenes/CONA.png" width="960" alt="Bienvenida Xconaeingeo2022" class="figure__img">
+                <img src="../../Imagenes/Bienvenida.png" width="960" alt="Bienvenida Xconaeingeo2022" class="figure__img">
             </figure>
         </section>
     </article>
