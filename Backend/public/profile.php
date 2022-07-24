@@ -36,14 +36,10 @@
             <div class="perfil-usuario-header">
                 <div class="perfil-usuario-portada">
                     <div class="ticket">
-                        <p class="ticket__p">NRO: 1002</p>
+                        <img class="ticket_imagen" src="../../Imagenes/11.png" alt="">
+                        <p class="ticket__p">Miembro N° 0001</p>
                     </div>
-                    <img src=" " alt="portada de tematica">
                     <div class="perfil-usuario-avatar">
-                        <img src="  " alt="avatar">
-                        <button type="button" class="boton-avatar">
-                            <i class="far fa-image"></i>
-                        </button>
                     </div>
                 </div>
             </div>

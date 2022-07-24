@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="../styles/whatsapp.css">
     <link rel="stylesheet" href="../styles/styles_ponentes.css">
     <link rel="stylesheet" href="../styles/styles_universidades.css">
+    <link rel="stylesheet" href="../styles/styles_sponsors.css">
 
 
 </head>
@@ -94,11 +95,14 @@
                 <a href="#" class="redes-sociales__ul__link" target="_blank">
                     <div class="redes-sociales__ul__link__img youtube"></div>
                 </a>
-                <a href="#" class="redes-sociales__ul__link" target="_blank">
+                <a href="https://www.facebook.com/XI-Conaeingeo-Cusco-2022-107191221809301/" class="redes-sociales__ul__link" target="_blank">
                     <div class="redes-sociales__ul__link__img facebook"></div>
                 </a>
                 <a href="#" class="redes-sociales__ul__link" target="_blank">
                     <div class="redes-sociales__ul__link__img instagram"></div>
+                </a>
+                <a href="#" class="redes-sociales__ul__link" target="_blank">
+                    <div class="redes-sociales__ul__link__img linkedin"></div>
                 </a>
             </ul>
         </section>
@@ -156,8 +160,7 @@
                 </div>
             </div>
         </section>
-        <section class="sponsors">
-        </section>
+        
         <section class="universidades">          
             <h2 class="center-align titulo universidades__h2">Universidades</h2>  
             <div class="ruleta_universidades">
@@ -172,6 +175,22 @@
                     <span style="--i:8;"><div><img src="../../Imagenes/U08.jpg" alt="08"></div></span>
                     <span style="--i:9;"><div><img src="../../Imagenes/U09.png" alt="09"></div></span>
                     <span style="--i:10;"><div><img src="../../Imagenes/U10.png" alt="10"></div></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="sponsors">
+            <h2 class="center-align titulo Sponsors__h2">Nos patrocinan!!!</h2>
+            <div class="caja-sponsors">
+                <div class="sponsors-1">
+                    <a href="#"><img class="img-sponsors-1" src="../../Imagenes/LOGOS AUSPICIADORES/GEOTEKH PERU.jpg"></a>
+                    <a href="#"><img class="img-sponsors-1" src="../../Imagenes/LOGOS AUSPICIADORES/GLOBAL MINING ACADEMY.jpg"></a>
+                    <a href="#"><img class="img-sponsors-1" src="../../Imagenes/LOGOS AUSPICIADORES/Peruvian Geothermal Association.jpg"></a>
+                    <a href="#"><img class="img-sponsors-1" src="../../Imagenes/LOGOS AUSPICIADORES/ScanViz GEO-Ingeniería.jpg"></a>
+                </div>
+                <div class="sponsors-2">
+                    <a href="#"><img class="img-sponsors-2" src="../../Imagenes/LOGOS AUSPICIADORES/SMARTX-EXPLORER.png"></a>
+                    <a href="#"><img class="img-sponsors-2" src="../../Imagenes/LOGOS AUSPICIADORES/SOCIEDAD GEOLOGICA DEL PERU.jpg"></a>
                 </div>
             </div>
         </section>
