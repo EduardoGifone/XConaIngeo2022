@@ -7,7 +7,9 @@ session_start();
 //Obtener datos del formulario
 $correoInput = $_POST["correoInput"];
 //Consultar si el correo ingresado existe
-$consulta = "SELECT Contrasenia FROM Tusuario where Email = '$correoInput'";
+
+$consulta = "SELECT Nombres, Apellidos, Contrasenia FROM Tusuario where Email = '$correoInput'";
+
 $query = mysqli_query($conexion, $consulta);
 
 if (!mysqli_num_rows($query)){
@@ -15,10 +17,18 @@ if (!mysqli_num_rows($query)){
     $_SESSION["errorCorreoInput"] = true;
 }
 else{
-    //Recuperar contraseña
-    $password = current($query -> fetch_assoc());
-    //Crear el mensaje
+
+    //Recuperar datos
+    while($row = mysqli_fetch_array($query)){
+        $nombre = $row["Nombres"];
+        $apellido = $row["Apellidos"];
+        $pass = $row["Contrasenia"];
+    }
+     //Crear el mensaje
+    $mensajeEnviar = "Hola ".$nombre." ".$apellido.", solicitaste recuperar tu contraseña para ingresar a nuestra plataforma de Conaeingeo XI, tu contraseña es: '".$pass."'"; 
     //Enviar al correo
+    //mail($correoInput, "Recuperación de contraseña para Conaeingeo", $mensajeEnviar);
+
     //Enviar correo
     $_SESSION["claveEnviada"] = true ;
 }

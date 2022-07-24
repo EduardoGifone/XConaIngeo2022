@@ -1,5 +1,9 @@
 <?php
-session_start();
+
+    session_start();
+    if (isset($_SESSION["contrasenia"])){
+        header("location: index.php");
+    }
 ?>
 <!DOCTYPE html>
 <html lang="es">
