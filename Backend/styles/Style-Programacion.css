@@ -3,14 +3,6 @@
     padding: 0; /*limpiamos todo*/
 }
 
-a{
-    text-decoration: none;
-    
-}
-
-a:visited 
-{color: black;  font-family: arial; text-decoration: none }
-
 .title h1{
     padding: 40px 0 ;
     text-align: center;
@@ -132,29 +124,12 @@ p, h4{
 
 .MesaRedonda{
     grid-row: span 3;
-    font-size: 1.22em;
+    font-size: 1.3em;
 }
 
 .ForoGeologico,.NocheTalento{
     grid-row: span 3;
-    font-size: 1.1em;
-}
-
-/* GRID ROW  JUEVES*/
-.WORKSHOP,.CONCURSO{
-    grid-row: span 20;
-}
-
-.MISS{
-    grid-row: span 5;
-}
-/* GRID ROW  VIERNES*/
-.SALIDAS,.VISITASTECNICAS{
-    grid-row: span 20;
-}
-
-.VISITAMUSEOS{
-    grid-row: span 5;
+    font-size: 1.3em;
 }
 /* GRID ROW  JUEVES*/
 .WORKSHOP,.CONCURSO{
@@ -178,10 +153,6 @@ p, h4{
     grid-row: span 20;
 }
 
-/* GRID ROW  SABADO*/
-.SALIDASCAMPO,.VISITASGEO{
-    grid-row: span 20;
-}
 .CITYTOUR{
     grid-row: span 5;
 }
@@ -276,7 +247,7 @@ h4.Paraninfo{
     align-items: center;*/
     writing-mode: vertical-lr;
     padding-left: 40%;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .MISS{
@@ -297,13 +268,13 @@ h4.Paraninfo{
     display: grid;
     place-items: center;
     writing-mode: vertical-lr;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .VISITAMUSEOS{
     display: grid;
     place-items: center;
-    font-size: 14.5px;
+    font-size: 20px;
     background-color: #E8A644;
 }
 
@@ -312,7 +283,7 @@ h4.Paraninfo{
     display: grid;
     place-items: center;
     writing-mode: vertical-lr;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .CITYTOUR{
@@ -326,10 +297,10 @@ h4.Paraninfo{
 .COPA,.CEREMONIA{
     display: grid;
     place-items: center;
-    font-size: 27px;
+    font-size: 35px;
 }
 .FIESTACLAUSURA{
     display: grid;
     place-items: center;
-    font-size: 27px;
+    font-size: 30px;
 }

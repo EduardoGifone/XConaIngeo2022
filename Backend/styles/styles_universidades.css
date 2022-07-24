@@ -1,0 +1,114 @@
+
+.universidades {
+    background-color: rgba(232, 166, 68, 0.8);
+    padding: 2rem;
+}
+
+.universidades .ruleta_universidades{
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.content {
+    position: relative;
+    width: 120px;
+    height: 120px;
+
+    transform-style: preserve-3d;
+    animation: animate 30s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(-370deg);
+    }
+}
+
+.content span {
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    transform-style: preserve-3d;
+    transform-origin: center;
+    transform: rotateY(calc(var(--i)*36deg)) translateZ(270px);
+}
+
+
+.content span div {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 1.5s;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.ruleta_universidades img{
+    height: auto;
+    width: auto;
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .content {
+        position: relative;
+        width: 160px;
+        height: 160px;
+    
+        transform-style: preserve-3d;
+        animation: animate 30s linear infinite;
+    }
+    .content span {
+        transform-style: preserve-3d;
+        transform-origin: center;
+        transform: rotateY(calc(var(--i)*36deg)) translateZ(370px);
+    }
+    
+    
+    .content span div {
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        border-radius: 20px;
+        transition: 1.5s;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    
+    .ruleta_universidades img{
+        height: auto;
+        width: auto;
+        max-width: 160px;
+        max-height: 160px;
+        border-radius: 10px;
+    }
+}

@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['contrasenia'])){
+        header("location: login.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -16,26 +23,21 @@
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
         <i class="icon icon-whatsapp"></i>
     </a>
-    <header class="header">
-        <nav class="nav">
-            <a href="#" class="nav__a">Inicio</a>
-            <a href="#" class="nav__a">Organizacion</a>
-            <a href="#"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
-            <a href="#" class="nav__a">Contacto</a>
-            <a href="#" class="nav__a nav__a-login">Iniciar Sesion</a>
-        </nav>
-    </header>
+    <?php
+        include("HeaderPrivate.php");
+    ?>
     <main class="main">
         <div class="main__contenedor">
-            <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
             <h1 class="main__contenedor__h1">MI PERFIL</h1>
-            <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </div>        
     </main>
     <article class="article">
         <section class="seccion-perfil-usuario">
             <div class="perfil-usuario-header">
                 <div class="perfil-usuario-portada">
+                    <div class="ticket">
+                        <p class="ticket__p">NRO: 1002</p>
+                    </div>
                     <img src=" " alt="portada de tematica">
                     <div class="perfil-usuario-avatar">
                         <img src="  " alt="avatar">
@@ -47,7 +49,7 @@
             </div>
             <div class="perfil-usuario-body">
                 <div class="perfil-usuario-bio">
-                    <h3 class="titulo">Anthony Mayon Lopez Oquendo</h3>
+                    <h3 class="titulo">Anthony Mayon Loprz Oquendo</h3>
                     <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime ipsa asperiores debitis facilis a iste voluptatibus harum in? Tempore dignissimos iure natus! Ducimus atque, sunt sit reiciendis pariatur corrupti facere?</p>
                 </div>
                 <div class="perfil-usuario-footer">
@@ -61,6 +63,9 @@
                         <li><i class="icono fas fa-at"></i> Email</li>
                         <li><i class="icono fas fa-ballot"></i>Registro</li>
                     </ul>
+                    <form action="Logout.php">
+                        <button>Cerrar sesion</button>
+                    </form>
                 </div>
                 <div class="redes-sociales">
                     <a href="" class="boton-redes facebook fab fa-facebook-f"><i class="icon-facebook"></i></a>

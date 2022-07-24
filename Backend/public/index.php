@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -15,7 +19,6 @@
     <link rel="stylesheet" href="../styles/styles_index.css">
     <link rel="stylesheet" href="../styles/whatsapp.css">
     <link rel="stylesheet" href="../styles/styles_ponentes.css">
-    <link rel="stylesheet" href="../styles/styles_index_privado.css">
     <link rel="stylesheet" href="../styles/styles_universidades.css">
     <link rel="stylesheet" href="../styles/styles_sponsors.css">
 
@@ -26,34 +29,14 @@
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
         <i class="icon icon-whatsapp"></i>
     </a>
-    <header class="header">
-        <nav class="nav">
-            <a href="#" class="nav__a">Inicio</a>
-            <div class="nav__a nav__a-options nav__a-organizacion">
-                Organizacion ᐁ
-                <div class="nav__a__options">
-                    <ul class="nav__a__options__list">
-                        <li><a href="/Frontend/public/Bienvenida.html" class="nav__a__options__a">Bienvenida</a></li>
-                        <li><a href="/Frontend/public/Asesores.html" class="nav__a__options__a">Asesores</a></li>
-                        <li><a href="/Frontend/public/Directiva.html" class="nav__a__options__a">Directiva</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="nav__a nav__a-options nav__a-evento">
-                Evento ᐁ
-                <div class="nav__a__options">
-                    <ul class="nav__a__options__list">
-                        <li><a href="/Frontend/public/Programacion.html" class="nav__a__options__a">Programacion</a></li>
-                        <li><a href="/Frontend/public/Ponentes.html" class="nav__a__options__a">Ponentes</a></li>
-                    </ul>
-                </div>
-            </div>
-            <a href="#" class="nav__a-img"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
-            <a href="/Frontend/public/profile.html" class="nav__a">Usuario</a>
-            <a href="/Frontend/public/contacto.html" class="nav__a">Contacto</a>
-            <a href="/Frontend/public/login.html" class="nav__a nav__a-login">Iniciar Sesion</a>
-        </nav>
-    </header>
+    <?php
+    if (!isset($_SESSION['correo'])){
+        include("HeaderPublic.php");
+    }
+    else{
+        include("HeaderPrivate.php");
+    }
+    ?>
     <main class="main">
         <div class="main__contenedor">
             <div class="main__contenedor__izq">
@@ -86,24 +69,23 @@
                     <img src="../../Imagenes/mision.png" alt="Mision del congreso Xconaeingeo2022" class="figure__img">
                     <div class="figure__capa">
                         <h3 class="figure__capa__h3">MISION</h3>
-                        <p class="figure__capa__p">Tiene la misión de crear un escenario que fomente una mejor formación académica en temas relacionados a las geociencias y ramas afines. Así como una mejor formación humana para mejorar la confraternización entre estudiantes de
-                            ingeniería geológica y futuros colegas.</p>
-                    </div>
-                </figure>
+                        <p class="figure__capa__p">Tiene la misión de crear un escenario que fomente una mejor formación académica en temas relacionados a las geociencias y ramas afines. Así como una mejor formación humana para mejorar la confraternización entre estudiantes de ingeniería geológica y futuros colegas.</p>
+                    </div> 
+                </figure>                   
                 <figure class="figure">
                     <img src="../../Imagenes/vision.png" alt="Vision del congreso Xconaeingeo2022" class="figure__img">
                     <div class="figure__capa">
                         <h3 class="figure__capa__h3">VISION</h3>
                         <p class="figure__capa__p">Constituirse y permanecer como el evento líder y que más impacto genera a nivel nacional, reconocida nacionalmente por su carácter innovador sobre conocimientos en geociencias.</p>
-                    </div>
-                </figure>
+                    </div>   
+                </figure>                 
                 <figure class="figure">
                     <img src="../../Imagenes/meta.png" alt="Meta del congreso Xconaeingeo2022" class="figure__img">
                     <div class="figure__capa">
                         <h3 class="figure__capa__h3">META</h3>
                         <p class="figure__capa__p">Lograr una participación masiva de todos los estudiantes y profesionales afines a las geociencias y la Ingeniería Geológica con el fin de lograr un alcance nacional para su mayor conocimiento, importancia y divulgación.</p>
-                    </div>
-                </figure>
+                    </div>  
+                </figure>                  
             </div>
         </section>
         <section class="redes-sociales">
@@ -209,7 +191,6 @@
                 </div>
             </div>
         </section>
-
     </article>
     <footer class="footer">
         <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>

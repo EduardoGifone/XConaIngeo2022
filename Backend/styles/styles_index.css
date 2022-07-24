@@ -179,10 +179,15 @@ body {
 
 .nav__a-evento {
     width: 170px;
+    z-index: 100;
 }
 
 .nav__a-organizacion {
-    z-index: 100;
+    z-index: 200;
+}
+
+.nav__a-usuario {
+    width: 235px;
 }
 
 /* ============================================== MAIN ============================================== */
@@ -531,14 +536,14 @@ body {
     }
 
     .nav {
-        padding-top: 70px;
+        padding-top: 100px;
         display: flex;
         flex-direction: column;
     }
     
     .nav-abajo {
-        padding: 85px 0;
-        padding-top: 75px;
+        padding: 110px 0;
+        padding-top: 100px;
     }
 
     .nav__a {
