@@ -3,11 +3,6 @@
     padding: 0; /*limpiamos todo*/
 }
 
-a{
-    text-decoration: none;
-    
-}
-
 a:visited 
 {color: black;  font-family: arial; text-decoration: none }
 
@@ -332,4 +327,10 @@ h4.Paraninfo{
     display: grid;
     place-items: center;
     font-size: 27px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;    
 }
