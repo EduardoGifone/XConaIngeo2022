@@ -308,12 +308,12 @@
         
             <div class="topicosJueves">
                 <section class="topico">
-                    <h4 class="WORKSHOP">WORKSHOP</h4>
-                    <h4 class="MISS">MISS Y MISTER CONAEINGEO</h4>
+                    <h4 class="WORKSHOP"><a class="WORKSHOP" href="/Imagenes/HorarioPrueba2.png" target="_self">WORKSHOP</a></h4>
+                    <h4 class="MISS"><a class="MISS" href="/Imagenes/HorarioPrueba2.png" target="_self">MISS Y MISTER CONAEINGEO</a></h4>
                 </section>
                 <section class="topico">
-                    <h4 class="CONCURSO">CONCURSOS ACADEMICOS</h4>
-                    <h4 class="MISS">MISS Y MISTER CONAEINGEO</h4>
+                    <h4 class="CONCURSO"><a class="CONCURSO" href="/Imagenes/HorarioPrueba2.png" target="_self">CONCURSOS ACADEMICOS</a></h4>
+                    <h4 class="MISS"><a class="MISS" href="/Imagenes/HorarioPrueba2.png" target="_self">MISS Y MISTER CONAEINGEO</a></h4>
                 </section>
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
@@ -357,16 +357,16 @@
         
             <div class="topicos">
                 <section class="topico">
-                    <h4 class="CONCURSO">CONCURSOS ACADEMICOS</h4>
-                    <h4 class="VISITAMUSEOS">VISITA A LOS MUSEOS CUSQUEÑOS</h4>
+                    <h4 class="CONCURSO"><a class="CONCURSO" href="/Imagenes/HorarioPrueba2.png" target="_self">CONCURSOS ACADEMICOS</a></h4>
+                    <h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS" href="/Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>
                 </section>
                 <section class="topico">
-                    <h4 class="SALIDAS">SALIDAS DE CAMPO Y VISITAS GEOTURISTICAS</h4>
-                    <h4 class="VISITAMUSEOS">VISITA A LOS MUSEOS CUSQUEÑOS</h4>
+                    <h4 class="SALIDAS"><a class="SALIDAS" href="/Imagenes/HorarioPrueba2.png" target="_self">SALIDAS DE CAMPO Y VISITAS GEOTURISTICAS</a></h4>
+                    <h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS" href="/Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>
                 </section>
                 <section class="topico">
-                    <h4 class="VISITASTECNICAS">VISITAS TECNICAS</h4>
-                    <h4 class="VISITAMUSEOS">VISITA A LOS MUSEOS CUSQUEÑOS</h4>
+                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS" href="/Imagenes/HorarioPrueba2.png" target="_self">VISITAS TECNICAS</a></h4>
+                    <h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS" href="/Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>
                 </section>    
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
@@ -409,16 +409,16 @@
         
             <div class="topicos">
                 <section class="topico">
-                    <h4 class="SALIDASCAMPO">SALIDAS DE CAMPO</h4>
-                    <h4 class="CITYTOUR">CITY TOUR CUSCO</h4>
+                    <h4 class="SALIDASCAMPO"><a class="SALIDASCAMPO" href="/Imagenes/HorarioPrueba2.png" target="_self">SALIDAS DE CAMPO</a></h4>
+                    <h4 class="CITYTOUR"><a class="CITYTOUR" href="/Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
                 </section>
                 <section class="topico">
-                    <h4 class="VISITASGEO">VISITA GEOTURISTICAS</h4>
-                    <h4 class="CITYTOUR">CITY TOUR CUSCO</h4>
+                    <h4 class="VISITASGEO"><a class="VISITASGEO" href="/Imagenes/HorarioPrueba2.png" target="_self">VISITA GEOTURISTICAS</a></h4>
+                    <h4 class="CITYTOUR"><a class="CITYTOUR" href="/Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
                 </section>
                 <section class="topico">
-                    <h4 class="VISITASTECNICAS">VISITAS TECNICAS</h4>
-                    <h4 class="CITYTOUR">CITY TOUR CUSCO</h4>
+                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS" href="/Imagenes/HorarioPrueba2.png" target="_self">VISITAS TECNICAS</a></h4>
+                    <h4 class="CITYTOUR"><a class="CITYTOUR" href="/Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
                 </section>    
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
@@ -462,11 +462,11 @@
         
             <div class="topicos Lunes">
                 <section class="topico">
-                    <h4 class="COPA">COPA CONAEINGEO VOLEY, FUTBOL, BASQUET, HIMKANAS</h4>
+                    <h4 class="COPA"><a class="COPA" href="/Imagenes/HorarioPrueba2.png" target="_self">COPA CONAEINGEO VOLEY, FUTBOL, BASQUET, HIMKANAS</a></h4>
                     <p><br></p>
-                    <h4 class="CEREMONIA">CEREMONIA DE CLAUSURA PREMIACION DE LOS DIFERENTES CONCURSOS</h4>
+                    <h4 class="CEREMONIA"><a class="CEREMONIA" href="/Imagenes/HorarioPrueba2.png" target="_self">CEREMONIA DE CLAUSURA PREMIACION DE LOS DIFERENTES CONCURSOS</a></h4>
                     <p class="Span2"><br></p>
-                    <h4 class="FIESTACLAUSURA">FIESTA DE CLAUSURA</h4>                   
+                    <h4 class="FIESTACLAUSURA"><a class="FIESTACLAUSURA" href="/Imagenes/HorarioPrueba2.png" target="_self">FIESTA DE CLAUSURA</a></h4>                   
                 </section>   
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
