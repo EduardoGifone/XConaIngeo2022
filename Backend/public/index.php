@@ -95,11 +95,14 @@
                 <a href="#" class="redes-sociales__ul__link" target="_blank">
                     <div class="redes-sociales__ul__link__img youtube"></div>
                 </a>
-                <a href="#" class="redes-sociales__ul__link" target="_blank">
+                <a href="https://www.facebook.com/XI-Conaeingeo-Cusco-2022-107191221809301/" class="redes-sociales__ul__link" target="_blank">
                     <div class="redes-sociales__ul__link__img facebook"></div>
                 </a>
                 <a href="#" class="redes-sociales__ul__link" target="_blank">
                     <div class="redes-sociales__ul__link__img instagram"></div>
+                </a>
+                <a href="#" class="redes-sociales__ul__link" target="_blank">
+                    <div class="redes-sociales__ul__link__img linkedin"></div>
                 </a>
             </ul>
         </section>

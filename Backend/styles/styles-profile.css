@@ -27,7 +27,10 @@ body {
     position: relative;
     width: 87%;
     height: 17rem;
-    background-image: linear-gradient(45deg, #036b1aa1, #b0b3b8);
+    background-image: url(../../Imagenes/fondo-user.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 0 0 30px 30px;
     /*
     background-image: url('http://localhost/multimedia/png/user-portada-3.png');
@@ -51,6 +54,10 @@ body {
     bottom: -40px;
     left: calc(50% - 90px);
     z-index: 1;
+    background-image: url(../../Imagenes/10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .seccion-perfil-usuario .perfil-usuario-avatar img {
@@ -181,7 +188,7 @@ body {
 
 .ticket {
     position: relative;
-    background-color: #420001ee;
+    background-color: #fff;
     width: 15%;
     min-width: 100px;
     border-radius: 20px;
@@ -190,12 +197,26 @@ body {
     left: -10px;
     top: 10px;
     z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .ticket__p {
-    padding: 20px;
     font-weight: 800;
-    color: #fff;
+    color: #3C0E11;
+}
+
+.ticket_imagen{
+    height: 90%;
+    width: 50%;
+}
+
+@media (max-width: 1300px) {
+    .ticket__p {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -220,5 +241,9 @@ body {
     .seccion-perfil-usuario .redes-sociales .boton-redes+.boton-redes {
         margin-left: 1rem;
         margin-top: 0;
+    }
+
+    .ticket {
+        flex-direction: column;
     }
 }
