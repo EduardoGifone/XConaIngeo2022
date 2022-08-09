@@ -27,7 +27,7 @@ body {
     position: relative;
     width: 87%;
     height: 17rem;
-    background-image: url(../../Imagenes/fondo-user.png);
+    background-image: url(./Imagenes/fondo-user.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@ body {
     bottom: -40px;
     left: calc(50% - 90px);
     z-index: 1;
-    background-image: url(../../Imagenes/10.png);
+    background-image: url(./Imagenes/10.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -179,7 +179,7 @@ body {
     background-image: linear-gradient(0deg, rgba(66, 0, 1, 0.5), rgba(66, 0, 1, 0.5)),
         linear-gradient(180deg, transparent 70%, rgba(66, 0, 1, 0.9)),
         linear-gradient(0deg, transparent 90%, rgba(66, 0, 1, 0.5)),
-        url(../../Imagenes/Fondo4.jpg);
+        url(./Imagenes/Fondo4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
