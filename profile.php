@@ -12,12 +12,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="XCONAEINGEO UNSAAC CUSCO 2022">
-    <link rel="icon" href="../../Imagenes/LOGO SIN FONDO-13.png">
+    <link rel="icon" href="./Imagenes/LOGO SIN FONDO-13.png">
     <script src="https://kit.fontawesome.com/04ab370843.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="../styles/styles_base.css">
-    <link rel="stylesheet" href="../styles/whatsapp.css">
-    <link rel="stylesheet" href="../styles/styles-profile.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles_base.css">
+    <link rel="stylesheet" href="./styles/whatsapp.css">
+    <link rel="stylesheet" href="./styles/styles-profile.css">
 </head>
 <body>
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
@@ -36,7 +36,7 @@
             <div class="perfil-usuario-header">
                 <div class="perfil-usuario-portada">
                     <div class="ticket">
-                        <img class="ticket_imagen" src="../../Imagenes/11.png" alt="">
+                        <img class="ticket_imagen" src="./Imagenes/11.png" alt="">
                         <p class="ticket__p">Miembro N° 0001</p>
                     </div>
                     <div class="perfil-usuario-avatar">
@@ -75,8 +75,8 @@
         <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
     </footer>
 
-    <script src="../scripts/simplyCountdown.min.js"></script>
-    <script src="../scripts/contador.js"></script>
-    <script src="../scripts/scroll.js"></script>
+    <script src="./scripts/simplyCountdown.min.js"></script>
+    <script src="./scripts/contador.js"></script>
+    <script src="./scripts/scroll.js"></script>
 </body>
 </html>

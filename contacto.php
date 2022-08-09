@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,35 +8,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="XCONAEINGEO UNSAAC CUSCO 2022">
-    <link rel="icon" href="../../Imagenes/LOGO SIN FONDO-13.png">
+    <link rel="icon" href="./Imagenes/LOGO SIN FONDO-13.png">
     <script src="https://kit.fontawesome.com/04ab370843.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="../styles/styles_base.css">
-    <link rel="stylesheet" href="../styles/whatsapp.css">
-    <link rel="stylesheet" href="/Frontend/styles/styles-contacto.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles_base.css">
+    <link rel="stylesheet" href="./styles/whatsapp.css">
+    <link rel="stylesheet" href="./styles/styles-contacto.css">
+    <link rel="stylesheet" href="./styles/styles_alert.css">
+    <!-- SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
         <i class="icon icon-whatsapp"></i>
     </a>
-    <header class="header">
-        <nav class="nav">
-            <a href="/Frontend/public/index.html" class="nav__a">Inicio</a>
-            <div class="nav__a nav__a-options">
-                Organizacion ᐁ
-                <div class="nav__a__options">
-                    <ul class="nav__a__options__list">
-                        <li><a href="/Frontend/public/Bienvenida.html" class="nav__a__options__a">Bienvenida</a></li>
-                        <li><a href="/Frontend/public/Asesores.html" class="nav__a__options__a">Asesores</a></li>
-                        <li><a href="/Frontend/public/Directiva.html" class="nav__a__options__a">Directiva</a></li>
-                    </ul>                    
-                </div>
-            </div>
-            <a href="/Frontend/public/index.html" class="nav__a-img"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
-            <a href="#" class="nav__a">Contacto</a>
-            <a href="/Frontend/public/login.html" class="nav__a nav__a-login">Iniciar Sesion</a>
-        </nav>
-    </header>
+    <?php
+    if (!isset($_SESSION['contrasenia'])){
+        include("HeaderPublic.php");
+    }
+    else{
+        include("HeaderPrivate.php");
+    }
+    ?>
     <main class="main">
         <div class="main__contenedor">
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
@@ -51,19 +47,19 @@
                 <div class="contact-wrapper">
                     <div class="contact-form">                       
                         <h3>Escríbenos</h3>
-                        <form action="">
+                        <form action="enviarMensajeContacto.php" method="POST">
                             <p>
                                 <label>Nombres</label>
-                                <input type="text" name="fullname">
+                                <input type="text" name="fullname" required>
                             </p>
                             <p>
                                 <label>Apellidos</label>
-                                <input type="text" name="surname">
+                                <input type="text" name="surname" required>
                             </p>
 
                             <p class="block">
                             <label>Tu mensaje</label> 
-                                <textarea name="message" rows="3"></textarea>
+                                <textarea name="message" rows="3" required></textarea>
                             </p>
                             <p class="block">
                                 <button>
@@ -83,7 +79,7 @@
                             <p>+51 932341738</p>
                             <p>De lunes a viernes de 8 a.m. a 11 a.m.</p>
                             <li><i class="fas fa-envelope-open-text"></i> Información legal</li>
-                            <p>Derechos reservados</p>
+                            <p>Conaeingeo XI</p>
                         </ul>
                         
                     </div>
@@ -95,10 +91,49 @@
         <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
     </article>
     <footer class="footer">
-        <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        <section id="foot">
+            <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        </section>
     </footer>
-    <script src="../scripts/simplyCountdown.min.js"></script>
-    <script src="../scripts/contador.js"></script>
-    <script src="../scripts/scroll.js"></script>
+    <script src="./scripts/simplyCountdown.min.js"></script>
+    <script src="./scripts/contador.js"></script>
+    <script src="./scripts/scroll.js"></script>
 </body>
 </html>
+<?php  
+    if (isset($_SESSION["errorVacioContacto"])){
+        $boolDatos = $_SESSION["errorVacioContacto"];
+        if ($boolDatos){
+            $_SESSION["errorVacioContacto"] = false;
+            ?>
+            <script>
+                swal({buttons: false, 
+                    title: "Error",
+                    icon: "error",
+                    text: "Por favor llena todos los campos",
+                    timer: 1500,});
+            </script>
+            <?php
+        }
+    }
+    if(isset($_SESSION["mensajeContactoEnviado"])){
+        $boolMensaje = $_SESSION["mensajeContactoEnviado"];
+        if($boolMensaje){
+            $_SESSION["mensajeContactoEnviado"] = false;
+        ?>
+            <script>
+                swal({buttons: false, 
+                title: "Mensaje enviado!",
+                icon: "success",
+                text: "Tu mensaje ha sido enviado con éxito",
+                timer: 2000,});
+            </script>
+            <style>
+                .swal-title{
+                    color:green;
+                }
+            </style>
+        <?php
+        }
+    }   
+?>

@@ -20,7 +20,7 @@
                 </ul>                    
             </div>
         </div>
-        <a href="#" class="nav__a-img"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
+        <a href="#" class="nav__a-img"><img src="./Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
 
         <div class="nav__a nav__a-options nav__a-usuario">
             Usuario ᐁ

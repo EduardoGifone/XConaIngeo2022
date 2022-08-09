@@ -9,13 +9,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="XCONAEINGEO UNSAAC CUSCO 2022">
-    <link rel="icon" href="../../Imagenes/LOGO SIN FONDO-13.png">
+    <link rel="icon" href="./Imagenes/LOGO SIN FONDO-13.png">
     <script src="https://kit.fontawesome.com/04ab370843.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="../styles/styles_base.css">
-    <link rel="stylesheet" href="../styles/whatsapp.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles_base.css">
+    <link rel="stylesheet" href="./styles/whatsapp.css">
 
-    <link rel="stylesheet" href="../styles/styles_Directiva.css">
+    <link rel="stylesheet" href="./styles/styles_Directiva.css">
     <!--Required style-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/css/glide.theme.min.css">
     <!--Optional theme style-->
@@ -52,11 +52,11 @@
                     <div class="glide1 glide">
                         <div class="glide__track" data-glide-el="track">
                           <ul class="glide__slides">
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-1.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3> </li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-2.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-3.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-4.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-5.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-1.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3> </li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-2.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-3.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-4.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-5.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
                           </ul>
                         </div>
                         <div class="glide__arrows" data-glide-el="controls">
@@ -73,11 +73,11 @@
                     <div class="glide2 glide">
                         <div class="glide__track" data-glide-el="track">
                           <ul class="glide__slides">
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-1.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3> </li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-2.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-3.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-4.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-5.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-1.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3> </li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-2.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-3.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-4.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-5.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
                           </ul>
                         </div>
                         <div class="glide__arrows" data-glide-el="controls">
@@ -94,11 +94,11 @@
                     <div class="glide3 glide">
                         <div class="glide__track" data-glide-el="track">
                           <ul class="glide__slides">
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-1.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3> </li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-2.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-3.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-4.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="../../Imagenes/Directivas/D-5.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-1.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3> </li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-2.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-3.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-4.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-5.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
                           </ul>
                         </div>
                         <div class="glide__arrows" data-glide-el="controls">
@@ -115,9 +115,9 @@
         <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
     </footer>
 
-    <script src="../scripts/simplyCountdown.min.js"></script>
-    <script src="../scripts/contador.js"></script>
-    <script src="../scripts/scroll.js"></script>
+    <script src="./scripts/simplyCountdown.min.js"></script>
+    <script src="./scripts/contador.js"></script>
+    <script src="./scripts/scroll.js"></script>
 
     <!--Scripts para Directivas-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/glide.min.js"></script>
