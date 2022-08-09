@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <title>XICONAEINGEOXI</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="XICONAEINGEO UNSAAC CUSCO 2022">
-    <link rel="icon" href="../../Imagenes/LOGO SIN FONDO-13.png">
+    <link rel="icon" href="./Imagenes/LOGO SIN FONDO-13.png">
     <script src="https://kit.fontawesome.com/04ab370843.js" crossorigin="anonymous"></script>
 
     <!-- Materialize.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <link rel="stylesheet" href="../styles/styles_index.css">
-    <link rel="stylesheet" href="../styles/whatsapp.css">
-    <link rel="stylesheet" href="../styles/styles_ponentes.css">
-    <link rel="stylesheet" href="../styles/styles_index_privado.css">
-    <link rel="stylesheet" href="../styles/styles_universidades.css">
-    <link rel="stylesheet" href="../styles/styles_sponsors.css">
+    <link rel="stylesheet" href="./styles/styles_index.css">
+    <link rel="stylesheet" href="./styles/whatsapp.css">
+    <link rel="stylesheet" href="./styles/styles_ponentes.css">
+    <link rel="stylesheet" href="./styles/styles_index_privado.css">
+    <link rel="stylesheet" href="./styles/styles_universidades.css">
+    <link rel="stylesheet" href="./styles/styles_sponsors.css">
 
 
 </head>
-
 <body>
     <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
         <i class="icon icon-whatsapp"></i>
@@ -33,30 +31,30 @@
                 Organizacion ᐁ
                 <div class="nav__a__options">
                     <ul class="nav__a__options__list">
-                        <li><a href="/Frontend/public/Bienvenida.html" class="nav__a__options__a">Bienvenida</a></li>
-                        <li><a href="/Frontend/public/Asesores.html" class="nav__a__options__a">Asesores</a></li>
-                        <li><a href="/Frontend/public/Directiva.html" class="nav__a__options__a">Directiva</a></li>
-                    </ul>
+                        <li><a href="/Frontend/public/Bienvenida.php" class="nav__a__options__a">Bienvenida</a></li>
+                        <li><a href="/Frontend/public/Asesores.php" class="nav__a__options__a">Asesores</a></li>
+                        <li><a href="/Frontend/public/Directiva.php" class="nav__a__options__a">Directiva</a></li>
+                    </ul>                    
                 </div>
             </div>
             <div class="nav__a nav__a-options nav__a-evento">
                 Evento ᐁ
                 <div class="nav__a__options">
                     <ul class="nav__a__options__list">
-                        <li><a href="/Frontend/public/Programacion.html" class="nav__a__options__a">Programacion</a></li>
-                        <li><a href="/Frontend/public/Ponentes.html" class="nav__a__options__a">Ponentes</a></li>
-                    </ul>
+                        <li><a href="/Frontend/public/Programacion.php" class="nav__a__options__a">Programacion</a></li>
+                        <li><a href="/Frontend/public/Ponentes.php" class="nav__a__options__a">Ponentes</a></li>
+                    </ul>                    
                 </div>
             </div>
             <a href="#" class="nav__a-img"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
-            <a href="/Frontend/public/profile.html" class="nav__a">Usuario</a>
-            <a href="/Frontend/public/contacto.html" class="nav__a">Contacto</a>
-            <a href="/Frontend/public/login.html" class="nav__a nav__a-login">Iniciar Sesion</a>
+            <a href="/Frontend/public/profile.php" class="nav__a">Usuario</a>
+            <a href="/Frontend/public/contacto.php" class="nav__a">Contacto</a>
+            <a href="/Frontend/public/login.php" class="nav__a nav__a-login">Iniciar Sesion</a>
         </nav>
     </header>
     <main class="main">
         <div class="main__contenedor">
-            <div class="main__contenedor__izq">
+            <div class="main__contenedor__izq">                
                 <div class="main__contenedor__izq__img-logo"></div>
             </div>
             <div class="main__contenedor__der">
@@ -65,8 +63,8 @@
                     <div class="contador__img-contador"></div>
                     <div id="contador__contador"></div>
                 </div>
-            </div>
-        </div>
+            </div>            
+        </div>        
     </main>
     <article class="article">
         <section class="inscribete">
@@ -77,7 +75,7 @@
         <div class="separacion"></div>
         <section class="video">
             <video class="video__video" src="../../Videos/prueba.mp4" autoplay controls loop muted></video>
-        </section>
+        </section>        
         <div class="separacion separacion-bajo"></div>
         <section class="representamos">
             <h2 class="representamos__h2">¿Que Representamos?</h2>
@@ -86,24 +84,23 @@
                     <img src="../../Imagenes/mision.png" alt="Mision del congreso Xconaeingeo2022" class="figure__img">
                     <div class="figure__capa">
                         <h3 class="figure__capa__h3">MISION</h3>
-                        <p class="figure__capa__p">Tiene la misión de crear un escenario que fomente una mejor formación académica en temas relacionados a las geociencias y ramas afines. Así como una mejor formación humana para mejorar la confraternización entre estudiantes de
-                            ingeniería geológica y futuros colegas.</p>
-                    </div>
-                </figure>
+                        <p class="figure__capa__p">Tiene la misión de crear un escenario que fomente una mejor formación académica en temas relacionados a las geociencias y ramas afines. Así como una mejor formación humana para mejorar la confraternización entre estudiantes de ingeniería geológica y futuros colegas.</p>
+                    </div> 
+                </figure>                   
                 <figure class="figure">
                     <img src="../../Imagenes/vision.png" alt="Vision del congreso Xconaeingeo2022" class="figure__img">
                     <div class="figure__capa">
                         <h3 class="figure__capa__h3">VISION</h3>
                         <p class="figure__capa__p">Constituirse y permanecer como el evento líder y que más impacto genera a nivel nacional, reconocida nacionalmente por su carácter innovador sobre conocimientos en geociencias.</p>
-                    </div>
-                </figure>
+                    </div>   
+                </figure>                 
                 <figure class="figure">
                     <img src="../../Imagenes/meta.png" alt="Meta del congreso Xconaeingeo2022" class="figure__img">
                     <div class="figure__capa">
                         <h3 class="figure__capa__h3">META</h3>
                         <p class="figure__capa__p">Lograr una participación masiva de todos los estudiantes y profesionales afines a las geociencias y la Ingeniería Geológica con el fin de lograr un alcance nacional para su mayor conocimiento, importancia y divulgación.</p>
-                    </div>
-                </figure>
+                    </div>  
+                </figure>                  
             </div>
         </section>
         <section class="redes-sociales">
@@ -121,7 +118,7 @@
                 </a>
             </ul>
         </section>
-
+        
         <section class="ponentes">
             <div class="row ponentes">
                 <div class="col s12">
@@ -132,6 +129,7 @@
                                 <img src="../../Imagenes/pon-1.PNG" alt="">
                                 <div class="capa">
                                     <h3>DR. HERNANDO TAVERA HUARACHE</h3>
+                                    <p>Ingeniero geofísico egresado de la Universidad Nacional de San Agustín de Arequipa</p>
                                 </div>
                             </figure>
                         </div>
@@ -141,6 +139,8 @@
                                 <img src="../../Imagenes/pon-2.PNG" alt="">
                                 <div class="capa">
                                     <h3>Dr. Torró i Abat Lisard</h3>
+                                    <p>Licenciado en Geología (2009, Universidad de Barcelona) 
+                                        y en Ingeniería de Minas (2011, Universidad Politécnica de Cataluña)</p>
                                 </div>
                             </figure>
                         </div>
@@ -150,6 +150,7 @@
                                 <img src="../../Imagenes/pon-3.PNG" alt="">
                                 <div class="capa">
                                     <h3>Dr. Antonio Samaniego</h3>
+                                    <p>PhD MSc Mecánica de Rocas, BSc Minería e Ingenieria Civil Antonio </p>
                                 </div>
                             </figure>
                         </div>
@@ -159,6 +160,8 @@
                                 <img src="../../Imagenes/pon-4.PNG" alt="">
                                 <div class="capa">
                                     <h3>Dr. Vallance Jean Francois Victor</h3>
+                                    <p>Ph.D Tesis en  metalogenia y geoquímica, en CREGU – Nancy, Francia.  
+                                        Master’s degree en Ciencias de la Tierra en Universidad de Nancy, Francia </p>
                                 </div>
                             </figure>
                         </div>
@@ -168,6 +171,8 @@
                                 <img src="../../Imagenes/pon-5.PNG" alt="">
                                 <div class="capa">
                                     <h3>Dra. Silvia Rosas Lizárraga</h3>
+                                    <p>Ingeniera Geóloga de la Universidad Nacional de Ingeniería
+                                        y PhD de la Universidad de Heidelberg–Alemania.</p>
                                 </div>
                             </figure>
                         </div>
@@ -222,10 +227,9 @@
     <script src="../scripts/jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
-        $(document).ready(function() {
-            $('.carousel').carousel();
-        });
+      $(document).ready(function(){
+        $('.carousel').carousel();
+      });
     </script>
 </body>
-
 </html>

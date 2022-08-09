@@ -11,13 +11,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="XCONAEINGEO UNSAAC CUSCO 2022">
-    <link rel="icon" href="../../Imagenes/LOGO SIN FONDO-13.png">
+    <link rel="icon" href="./Imagenes/LOGO SIN FONDO-13.png">
     <script src="https://kit.fontawesome.com/04ab370843.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="../styles/styles_base.css">
-    <link rel="stylesheet" href="../styles/whatsapp.css">
-    <link rel="stylesheet" href="../styles/styles_login.css">
-    <link rel="stylesheet" href="../styles/styles_alert.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles_base.css">
+    <link rel="stylesheet" href="./styles/whatsapp.css">
+    <link rel="stylesheet" href="./styles/styles_login.css">
+    <link rel="stylesheet" href="./styles/styles_alert.css">
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!-- SweetAlert -->
@@ -40,7 +40,7 @@
     <article class="article">
         <section class="contenido">
             <div class="content animated bounceInUp">
-                <img class="bee" src="../../Imagenes/people.png" alt="">
+                <img class="bee" src="./Imagenes/people.png" alt="">
                 <div class="formulario">
                     <form action="LoginController.php" method="POST" name="formLog">
                         <p>
@@ -80,9 +80,9 @@
         </section>
     </footer>
 
-    <script src="../scripts/simplyCountdown.min.js"></script>
-    <script src="../scripts/contador.js"></script>
-    <script src="../scripts/scroll.js"></script>
+    <script src="./scripts/simplyCountdown.min.js"></script>
+    <script src="./scripts/contador.js"></script>
+    <script src="./scripts/scroll.js"></script>
     
 </body>
 </html>
