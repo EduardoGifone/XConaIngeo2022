@@ -59,14 +59,14 @@
         </section>
         <div class="separacion"></div>
         <section class="video">
-            <video class="video__video" src="../../Videos/prueba.mp4" autoplay controls loop muted></video>
+            <video class="video__video" src="./Videos/prueba.mp4" autoplay controls loop muted></video>
         </section>
         <div class="separacion separacion-bajo"></div>
         <section class="representamos">
             <h2 class="representamos__h2">¿Que Representamos?</h2>
             <div class="representamos__contenedor">
                 <figure class="figure">
-                    <img src="../Imagenes/mision.png" alt="Mision del congreso Xconaeingeo2022" class="figure__img">
+                    <img src="./Imagenes/mision.png" alt="Mision del congreso Xconaeingeo2022" class="figure__img">
                     <div class="figure__capa">
                         <h3 class="figure__capa__h3">MISION</h3>
                         <p class="figure__capa__p">Tiene la misión de crear un escenario que fomente una mejor formación académica en temas relacionados a las geociencias y ramas afines. Así como una mejor formación humana para mejorar la confraternización entre estudiantes de ingeniería geológica y futuros colegas.</p>
