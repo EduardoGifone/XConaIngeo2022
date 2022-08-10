@@ -7,19 +7,18 @@ $user = $_POST['user'];
 $pass = $_POST['pass'];
 $usuario = new Usuario();
 $usuario->Loguearse($user,$pass);
-print_r("hola ");
-print_r($user);
-print_r($pass);
 $_SESSION['correo'] = $user;
 
 if(!empty($usuario->objetos)){  
     $_SESSION["contrasenia"] = $pass;
     foreach ($usuario->objetos as $objeto) {
         $_SESSION['id'] = $objeto -> idusuario;
+        $_SESSION['email'] = $objeto -> email;
         $_SESSION['nombre'] = $objeto->nombres;
         $_SESSION['apellido'] = $objeto->apellidos;    
         $_SESSION['dni'] = $objeto->dni;
         $_SESSION['universidad'] = $objeto->universidad;       
+        $_SESSION['telefono'] = $objeto->telefono;
     }             
     header('Location:profile.php');           
 }
