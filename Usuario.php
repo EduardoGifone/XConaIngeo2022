@@ -7,10 +7,11 @@ class Usuario{
         $this->acceso = $db->pdo;
     }
     function Loguearse($user,$pass){
-        $sql="SELECT * FROM Tusuario where Email=:user and Contrasenia=:pass";
+        $sql="SELECT * FROM TUsuario where Email= :user and Contrasenia=:pass";
         $query = $this->acceso->prepare($sql);
-
-        $query->execute(array(':user'=>$user,':pass'=>$pass));
+        
+        $query->execute(array(':user'=> $user, ':pass'=> $pass));
+        print_r("hola aea");
         $this->objetos=$query->fetchall();
         return $this->objetos;
     }

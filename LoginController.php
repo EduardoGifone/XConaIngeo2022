@@ -7,6 +7,9 @@ $user = $_POST['user'];
 $pass = $_POST['pass'];
 $usuario = new Usuario();
 $usuario->Loguearse($user,$pass);
+print_r("hola ");
+print_r($user);
+print_r($pass);
 $_SESSION['correo'] = $user;
 
 if(!empty($usuario->objetos)){  
