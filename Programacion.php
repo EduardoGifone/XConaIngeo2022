@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>XCONAEINGEOXI</title>
+    <title>CONAEINGEOXI</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="XCONAEINGEO UNSAAC CUSCO 2022">
@@ -480,7 +480,7 @@
     </article>
 
     <footer class="footer">
-        <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        <h2 class="footer__h2">XI | CONAEINGEO CUSCO 2022</h2>
     </footer>
 
     <script src="./scripts/simplyCountdown.min.js"></script>

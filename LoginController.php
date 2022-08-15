@@ -24,6 +24,7 @@ if(!empty($usuario->objetos)){
 }
 #Caso ingreso mal sus datos
 else{
+    header("HTTP/1.0 404 Not Found"); //quitar linea de codigo when se arregle el incorrecto login
     //Conectar con la base de datos
     $conexion = mysqli_connect("localhost", "root","","conaingeo");
     mysqli_set_charset($conexion, "utf8");
@@ -38,7 +39,7 @@ else{
     else{
         $_SESSION["errorPassword"] = true;       
     }
-    header('Location:login.php#foot');
+    header('Location:login.php');
 }
 
 ?>

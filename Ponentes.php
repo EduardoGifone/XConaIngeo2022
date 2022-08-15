@@ -96,7 +96,7 @@
         </section>
     </article>
     <footer class="footer">
-        <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        <h2 class="footer__h2">XI | CONAEINGEO CUSCO 2022</h2>
     </footer>
 
     <script src="./scripts/simplyCountdown.min.js"></script>
