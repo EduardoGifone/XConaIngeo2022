@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>XCONAEINGEOXI</title>
+    <title>CONAEINGEOXI</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="XCONAEINGEO UNSAAC CUSCO 2022">
@@ -37,7 +37,7 @@
                 <div class="perfil-usuario-portada">
                     <div class="ticket">
                         <img class="ticket_imagen" src="./Imagenes/11.png" alt="">
-                        <p class="ticket__p">Miembro N° 0001</p>
+                        <p class="ticket__p">Miembro N° <?php echo $_SESSION['id'] ?></p>
                     </div>
                     <div class="perfil-usuario-avatar">
                     </div>
@@ -45,34 +45,37 @@
             </div>
             <div class="perfil-usuario-body">
                 <div class="perfil-usuario-bio">
-                    <h3 class="titulo">Anthony Mayon Loprz Oquendo</h3>
-                    <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime ipsa asperiores debitis facilis a iste voluptatibus harum in? Tempore dignissimos iure natus! Ducimus atque, sunt sit reiciendis pariatur corrupti facere?</p>
+                    <h3 class="titulo"> 
+                        <?php 
+                            echo $_SESSION['nombre'];
+                            print(" ");
+                            echo $_SESSION['apellido'] 
+                        ?>  
+                    </h3>
+                    <p> </p>
                 </div>
                 <div class="perfil-usuario-footer">
                     <ul class="lista-datos">
-                        <li><i class="icono fas fa-user-check"></i> Perfil</li>
-                        <li><i class="icono fas fa-university"></i> Universidad</li>
-                        <li><i class="icono fas fa-location-arrow"></i> Direccion de usuario</li>
+                        <li><i class="icono fas fa-user-check"></i>Verificado </li>
+                        <li><i class="icono fas fa-university"></i> <?php echo $_SESSION['universidad'] ?> </li>
+                        <li><i class="icono fas fa-at"></i> <?php echo $_SESSION['correo'] ?> </li>
                     </ul>
                     <ul class="lista-datos">
-                        <li><i class="icono fas fa-arrow-up"></i>Telefono</li>
-                        <li><i class="icono fas fa-at"></i> Email</li>
-                        <li><i class="icono fas fa-ballot"></i>Registro</li>
+                        <li><i class="icono fas fa-mobile-screen "></i> <?php echo $_SESSION['telefono'] ?></li>
+                        <li><i class="icono far fa-address-card"></i><?php echo $_SESSION['dni'] ?> </li>
+                        <li><i class="icono fab fa-whatsapp"></i>  902 408 050</li>
                     </ul>
-                    <form action="Logout.php">
-                        <button>Cerrar sesion</button>
-                    </form>
                 </div>
                 <div class="redes-sociales">
-                    <a href="" class="boton-redes facebook fab fa-facebook-f"><i class="icon-facebook"></i></a>
-                    <a href="" class="boton-redes twitter fab fa-twitter"><i class="icon-twitter"></i></a>
-                    <a href="" class="boton-redes instagram fab fa-instagram"><i class="icon-instagram"></i></a>
+                    <a href="https://www.facebook.com/XI-Conaeingeo-Cusco-2022-107191221809301" target="_blank" class="boton-redes facebook fab fa-facebook-f"><i class="icon-facebook"></i></a>
+                    <a href="https://twitter.com/hashtag/Conaeingeo?src=hashtag_click" target="_blank" class="boton-redes twitter fab fa-twitter"><i class="icon-twitter"></i></a>
+                    <a href="https://instagram.com/xiconaeingeocusco2022?igshid=YmMyMTA2M2Y=" target="_blank" class="boton-redes instagram fab fa-instagram"><i class="icon-instagram"></i></a>
                 </div>
             </div>
         </section>
     </article>
     <footer class="footer">
-        <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        <h2 class="footer__h2">XI | CONAEINGEO CUSCO 2022</h2>
     </footer>
 
     <script src="./scripts/simplyCountdown.min.js"></script>
