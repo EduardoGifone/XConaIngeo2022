@@ -6,7 +6,7 @@
 <html lang="es">
 
 <head>
-    <title>XICONAEINGEOXI</title>
+    <title>CONAEINGEOXI</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="XICONAEINGEO UNSAAC CUSCO 2022">
@@ -196,7 +196,7 @@
         </section>
     </article>
     <footer class="footer">
-        <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
+        <h2 class="footer__h2">XI | CONAEINGEO CUSCO 2022</h2>
     </footer>
 
     <script src="./scripts/simplyCountdown.min.js"></script>

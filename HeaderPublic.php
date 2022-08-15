@@ -13,6 +13,6 @@
         </div>
         <a href="index.php" class="nav__a-img"><img src="./Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
         <a href="contacto.php" class="nav__a">Contacto</a>
-        <a href="login.php #foot" class="nav__a nav__a-login">Iniciar Sesion</a>
+        <a href="login.php" class="nav__a nav__a-login">Iniciar Sesion</a>
     </nav>
 </header>
