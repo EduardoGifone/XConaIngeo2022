@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="./styles/styles_universidades.css">
     <link rel="stylesheet" href="./styles/styles_sponsors.css">
 
-
 </head>
 
 <body>
@@ -114,52 +113,97 @@
                     <div class="carousel center-align">
                         <div class="carousel-item contenedor">
                             <figure>
-                                <img src="./Imagenes/pon-1.PNG" alt="">
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Dr. Dimas Apaza Idme.png" alt="">
                                 <div class="capa">
-                                    <h3>DR. HERNANDO TAVERA HUARACHE</h3>
+                                    <h3>Dr. Dimas Apaza Idme</h3>
                                 </div>
                             </figure>
                         </div>
 
                         <div class="carousel-item contenedor">
                             <figure>
-                                <img src="./Imagenes/pon-2.PNG" alt="">
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Aldo Carlos Villazana.jpg" alt="">
                                 <div class="capa">
-                                    <h3>Dr. Torró i Abat Lisard</h3>
+                                    <h3>Ing. Aldo Carlos Villazana</h3>
                                 </div>
                             </figure>
                         </div>
 
                         <div class="carousel-item contenedor">
                             <figure>
-                                <img src="./Imagenes/pon-3.PNG" alt="">
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Christian Aquino Llico.PNG" alt="">
                                 <div class="capa">
-                                    <h3>Dr. Antonio Samaniego</h3>
+                                    <h3>Ing. Christian Aquino Llico</h3>
                                 </div>
                             </figure>
                         </div>
 
                         <div class="carousel-item contenedor">
                             <figure>
-                                <img src="./Imagenes/pon-4.PNG" alt="">
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. EVELYN CAIZA.jpg" alt="">
                                 <div class="capa">
-                                    <h3>Dr. Vallance Jean Francois Victor</h3>
+                                    <h3>Ing. EVELYN CAIZA</h3>
                                 </div>
                             </figure>
                         </div>
 
                         <div class="carousel-item contenedor">
                             <figure>
-                                <img src="./Imagenes/pon-5.PNG" alt="">
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Nancy Encarnación Bermúdez.jpg" alt="">
                                 <div class="capa">
-                                    <h3>Dra. Silvia Rosas Lizárraga</h3>
+                                    <h3>Ing. Nancy Encarnación Bermúdez</h3>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="carousel-item contenedor">
+                            <figure>
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Pedro Isique Chanamé.JPG" alt="">
+                                <div class="capa">
+                                    <h3>Ing. Pedro Isique Chanamé</h3>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="carousel-item contenedor">
+                            <figure>
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Percy Torres Garcia.jpg" alt="">
+                                <div class="capa">
+                                    <h3>Ing. Percy Torres Garcia</h3>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="carousel-item contenedor">
+                            <figure>
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Victor Manuel Vargas Rodriguez.jpg" alt="">
+                                <div class="capa">
+                                    <h3>Ing. Victor Manuel Vargas Rodriguez</h3>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="carousel-item contenedor">
+                            <figure>
+                                <img class="img-ponente" src="./Imagenes/PONENTES/M.Sc.. Jul Roldan Guevara.jpg" alt="">
+                                <div class="capa">
+                                    <h3>MS.c. Jul Roldan Guevara</h3>
+                                </div>
+                            </figure>
+                        </div>  
+
+                        <div class="carousel-item contenedor">
+                            <figure>
+                                <img class="img-ponente" src="./Imagenes/PONENTES/MS.c. Samuel Canchaya.jpg" alt="">
+                                <div class="capa">
+                                    <h3>MS.c. Samuel Canchaya</h3>
                                 </div>
                             </figure>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>                        
         
         <section class="universidades">          
             <h2 class="center-align titulo universidades__h2">Universidades</h2>  

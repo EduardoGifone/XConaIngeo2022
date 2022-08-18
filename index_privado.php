@@ -31,9 +31,9 @@
                 Organizacion ᐁ
                 <div class="nav__a__options">
                     <ul class="nav__a__options__list">
-                        <li><a href="/Frontend/public/Bienvenida.php" class="nav__a__options__a">Bienvenida</a></li>
-                        <li><a href="/Frontend/public/Asesores.php" class="nav__a__options__a">Asesores</a></li>
-                        <li><a href="/Frontend/public/Directiva.php" class="nav__a__options__a">Directiva</a></li>
+                        <li><a href="Bienvenida.php" class="nav__a__options__a">Bienvenida</a></li>
+                        <li><a href="Asesores.php" class="nav__a__options__a">Asesores</a></li>
+                        <li><a href="Directiva.php" class="nav__a__options__a">Directiva</a></li>
                     </ul>                    
                 </div>
             </div>
@@ -41,15 +41,15 @@
                 Evento ᐁ
                 <div class="nav__a__options">
                     <ul class="nav__a__options__list">
-                        <li><a href="/Frontend/public/Programacion.php" class="nav__a__options__a">Programacion</a></li>
-                        <li><a href="/Frontend/public/Ponentes.php" class="nav__a__options__a">Ponentes</a></li>
+                        <li><a href="Programacion.php" class="nav__a__options__a">Programacion</a></li>
+                        <li><a href="Ponentes.php" class="nav__a__options__a">Ponentes</a></li>
                     </ul>                    
                 </div>
             </div>
-            <a href="#" class="nav__a-img"><img src="../../Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
-            <a href="/Frontend/public/profile.php" class="nav__a">Usuario</a>
-            <a href="/Frontend/public/contacto.php" class="nav__a">Contacto</a>
-            <a href="/Frontend/public/login.php" class="nav__a nav__a-login">Iniciar Sesion</a>
+            <a href="#" class="nav__a-img"><img src="Imagenes/Brujula.png" alt="Xconaeingeo-Brujula" class="nav__brujula"></a>
+            <a href="profile.php" class="nav__a">Usuario</a>
+            <a href="contacto.php" class="nav__a">Contacto</a>
+            <a href="login.php" class="nav__a nav__a-login">Iniciar Sesion</a>
         </nav>
     </header>
     <main class="main">
@@ -74,28 +74,28 @@
         </section>
         <div class="separacion"></div>
         <section class="video">
-            <video class="video__video" src="../../Videos/prueba.mp4" autoplay controls loop muted></video>
+            <video class="video__video" src="Videos/prueba.mp4" autoplay controls loop muted></video>
         </section>        
         <div class="separacion separacion-bajo"></div>
         <section class="representamos">
             <h2 class="representamos__h2">¿Que Representamos?</h2>
             <div class="representamos__contenedor">
                 <figure class="figure">
-                    <img src="../../Imagenes/mision.png" alt="Mision del congreso Xconaeingeo2022" class="figure__img">
+                    <img src="Imagenes/mision.png" alt="Mision del congreso Xconaeingeo2022" class="figure__img">
                     <div class="figure__capa">
                         <h3 class="figure__capa__h3">MISION</h3>
                         <p class="figure__capa__p">Tiene la misión de crear un escenario que fomente una mejor formación académica en temas relacionados a las geociencias y ramas afines. Así como una mejor formación humana para mejorar la confraternización entre estudiantes de ingeniería geológica y futuros colegas.</p>
                     </div> 
                 </figure>                   
                 <figure class="figure">
-                    <img src="../../Imagenes/vision.png" alt="Vision del congreso Xconaeingeo2022" class="figure__img">
+                    <img src="Imagenes/vision.png" alt="Vision del congreso Xconaeingeo2022" class="figure__img">
                     <div class="figure__capa">
                         <h3 class="figure__capa__h3">VISION</h3>
                         <p class="figure__capa__p">Constituirse y permanecer como el evento líder y que más impacto genera a nivel nacional, reconocida nacionalmente por su carácter innovador sobre conocimientos en geociencias.</p>
                     </div>   
                 </figure>                 
                 <figure class="figure">
-                    <img src="../../Imagenes/meta.png" alt="Meta del congreso Xconaeingeo2022" class="figure__img">
+                    <img src="Imagenes/meta.png" alt="Meta del congreso Xconaeingeo2022" class="figure__img">
                     <div class="figure__capa">
                         <h3 class="figure__capa__h3">META</h3>
                         <p class="figure__capa__p">Lograr una participación masiva de todos los estudiantes y profesionales afines a las geociencias y la Ingeniería Geológica con el fin de lograr un alcance nacional para su mayor conocimiento, importancia y divulgación.</p>
@@ -126,53 +126,90 @@
                     <div class="carousel center-align">
                         <div class="carousel-item contenedor">
                             <figure>
-                                <img src="../../Imagenes/pon-1.PNG" alt="">
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Dr. Dimas Apaza Idme.png" alt="">
                                 <div class="capa">
-                                    <h3>DR. HERNANDO TAVERA HUARACHE</h3>
-                                    <p>Ingeniero geofísico egresado de la Universidad Nacional de San Agustín de Arequipa</p>
+                                    <h3>Dr. Dimas Apaza Idme</h3>
                                 </div>
                             </figure>
                         </div>
 
                         <div class="carousel-item contenedor">
                             <figure>
-                                <img src="../../Imagenes/pon-2.PNG" alt="">
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Aldo Carlos Villazana.jpg" alt="">
                                 <div class="capa">
-                                    <h3>Dr. Torró i Abat Lisard</h3>
-                                    <p>Licenciado en Geología (2009, Universidad de Barcelona) 
-                                        y en Ingeniería de Minas (2011, Universidad Politécnica de Cataluña)</p>
+                                    <h3>Ing. Aldo Carlos Villazana</h3>
                                 </div>
                             </figure>
                         </div>
 
                         <div class="carousel-item contenedor">
                             <figure>
-                                <img src="../../Imagenes/pon-3.PNG" alt="">
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Christian Aquino Llico.PNG" alt="">
                                 <div class="capa">
-                                    <h3>Dr. Antonio Samaniego</h3>
-                                    <p>PhD MSc Mecánica de Rocas, BSc Minería e Ingenieria Civil Antonio </p>
+                                    <h3>Ing. Christian Aquino Llico</h3>
                                 </div>
                             </figure>
                         </div>
 
                         <div class="carousel-item contenedor">
                             <figure>
-                                <img src="../../Imagenes/pon-4.PNG" alt="">
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. EVELYN CAIZA.jpg" alt="">
                                 <div class="capa">
-                                    <h3>Dr. Vallance Jean Francois Victor</h3>
-                                    <p>Ph.D Tesis en  metalogenia y geoquímica, en CREGU – Nancy, Francia.  
-                                        Master’s degree en Ciencias de la Tierra en Universidad de Nancy, Francia </p>
+                                    <h3>Ing. EVELYN CAIZA</h3>
                                 </div>
                             </figure>
                         </div>
 
                         <div class="carousel-item contenedor">
                             <figure>
-                                <img src="../../Imagenes/pon-5.PNG" alt="">
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Nancy Encarnación Bermúdez.jpg" alt="">
                                 <div class="capa">
-                                    <h3>Dra. Silvia Rosas Lizárraga</h3>
-                                    <p>Ingeniera Geóloga de la Universidad Nacional de Ingeniería
-                                        y PhD de la Universidad de Heidelberg–Alemania.</p>
+                                    <h3>Ing. Nancy Encarnación Bermúdez</h3>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="carousel-item contenedor">
+                            <figure>
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Pedro Isique Chanamé.JPG" alt="">
+                                <div class="capa">
+                                    <h3>Ing. Pedro Isique Chanamé</h3>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="carousel-item contenedor">
+                            <figure>
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Percy Torres Garcia.jpg" alt="">
+                                <div class="capa">
+                                    <h3>Ing. Percy Torres Garcia</h3>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="carousel-item contenedor">
+                            <figure>
+                                <img class="img-ponente" src="./Imagenes/PONENTES/Ing. Victor Manuel Vargas Rodriguez.jpg" alt="">
+                                <div class="capa">
+                                    <h3>Ing. Victor Manuel Vargas Rodriguez</h3>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="carousel-item contenedor">
+                            <figure>
+                                <img class="img-ponente" src="./Imagenes/PONENTES/M.Sc.. Jul Roldan Guevara.jpg" alt="">
+                                <div class="capa">
+                                    <h3>MS.c. Jul Roldan Guevara</h3>
+                                </div>
+                            </figure>
+                        </div>  
+
+                        <div class="carousel-item contenedor">
+                            <figure>
+                                <img class="img-ponente" src="./Imagenes/PONENTES/MS.c. Samuel Canchaya.jpg" alt="">
+                                <div class="capa">
+                                    <h3>MS.c. Samuel Canchaya</h3>
                                 </div>
                             </figure>
                         </div>
@@ -185,16 +222,16 @@
             <h2 class="center-align titulo universidades__h2">Universidades</h2>  
             <div class="ruleta_universidades">
                 <div class="content">
-                    <span style="--i:1;"><div><img src="../../Imagenes/U01.png" alt="01"></div></span>
-                    <span style="--i:2;"><div><img src="../../Imagenes/U02.jpg" alt="02"></div></span>
-                    <span style="--i:3;"><div><img src="../../Imagenes/U03.png" alt="03"></div></span>
-                    <span style="--i:4;"><div><img src="../../Imagenes/U04.png" alt="04"></div></span>
-                    <span style="--i:5;"><div><img src="../../Imagenes/U05.png" alt="05"></div></span>
-                    <span style="--i:6;"><div><img src="../../Imagenes/U06.png" alt="06"></div></span>
-                    <span style="--i:7;"><div><img src="../../Imagenes/U07.jpg" alt="07"></div></span>
-                    <span style="--i:8;"><div><img src="../../Imagenes/U08.jpg" alt="08"></div></span>
-                    <span style="--i:9;"><div><img src="../../Imagenes/U09.png" alt="09"></div></span>
-                    <span style="--i:10;"><div><img src="../../Imagenes/U10.png" alt="10"></div></span>
+                    <span style="--i:1;"><div><img src="Imagenes/U01.png" alt="01"></div></span>
+                    <span style="--i:2;"><div><img src="Imagenes/U02.jpg" alt="02"></div></span>
+                    <span style="--i:3;"><div><img src="Imagenes/U03.png" alt="03"></div></span>
+                    <span style="--i:4;"><div><img src="Imagenes/U04.png" alt="04"></div></span>
+                    <span style="--i:5;"><div><img src="Imagenes/U05.png" alt="05"></div></span>
+                    <span style="--i:6;"><div><img src="Imagenes/U06.png" alt="06"></div></span>
+                    <span style="--i:7;"><div><img src="Imagenes/U07.jpg" alt="07"></div></span>
+                    <span style="--i:8;"><div><img src="Imagenes/U08.jpg" alt="08"></div></span>
+                    <span style="--i:9;"><div><img src="Imagenes/U09.png" alt="09"></div></span>
+                    <span style="--i:10;"><div><img src="Imagenes/U10.png" alt="10"></div></span>
                 </div>
             </div>
         </section>
@@ -203,14 +240,14 @@
             <h2 class="center-align titulo Sponsors__h2">Nos patrocinan!!!</h2>
             <div class="caja-sponsors">
                 <div class="sponsors-1">
-                    <a href="#"><img class="img-sponsors-1" src="../../Imagenes/LOGOS AUSPICIADORES/GEOTEKH PERU.jpg"></a>
-                    <a href="#"><img class="img-sponsors-1" src="../../Imagenes/LOGOS AUSPICIADORES/GLOBAL MINING ACADEMY.jpg"></a>
-                    <a href="#"><img class="img-sponsors-1" src="../../Imagenes/LOGOS AUSPICIADORES/Peruvian Geothermal Association.jpg"></a>
-                    <a href="#"><img class="img-sponsors-1" src="../../Imagenes/LOGOS AUSPICIADORES/ScanViz GEO-Ingeniería.jpg"></a>
+                    <a href="#"><img class="img-sponsors-1" src="Imagenes/LOGOS AUSPICIADORES/GEOTEKH PERU.jpg"></a>
+                    <a href="#"><img class="img-sponsors-1" src="Imagenes/LOGOS AUSPICIADORES/GLOBAL MINING ACADEMY.jpg"></a>
+                    <a href="#"><img class="img-sponsors-1" src="Imagenes/LOGOS AUSPICIADORES/Peruvian Geothermal Association.jpg"></a>
+                    <a href="#"><img class="img-sponsors-1" src="Imagenes/LOGOS AUSPICIADORES/ScanViz GEO-Ingeniería.jpg"></a>
                 </div>
                 <div class="sponsors-2">
-                    <a href="#"><img class="img-sponsors-2" src="../../Imagenes/LOGOS AUSPICIADORES/SMARTX-EXPLORER.png"></a>
-                    <a href="#"><img class="img-sponsors-2" src="../../Imagenes/LOGOS AUSPICIADORES/SOCIEDAD GEOLOGICA DEL PERU.jpg"></a>
+                    <a href="#"><img class="img-sponsors-2" src="Imagenes/LOGOS AUSPICIADORES/SMARTX-EXPLORER.png"></a>
+                    <a href="#"><img class="img-sponsors-2" src="Imagenes/LOGOS AUSPICIADORES/SOCIEDAD GEOLOGICA DEL PERU.jpg"></a>
                 </div>
             </div>
         </section>
@@ -220,11 +257,11 @@
         <h2 class="footer__h2">X | CONAEINGEO CUSCO 2022</h2>
     </footer>
 
-    <script src="../scripts/simplyCountdown.min.js"></script>
-    <script src="../scripts/contador.js"></script>
-    <script src="../scripts/scroll.js"></script>
+    <script src="./scripts/simplyCountdown.min.js"></script>
+    <script src="./scripts/contador.js"></script>
+    <script src="./scripts/scroll.js"></script>
 
-    <script src="../scripts/jquery-3.4.1.js"></script>
+    <script src="./scripts/jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
       $(document).ready(function(){
