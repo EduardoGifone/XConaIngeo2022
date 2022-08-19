@@ -3,7 +3,7 @@
     padding: 0; /*limpiamos todo*/
 }
 
-a:visited 
+.liink:visited 
 {color: black;  font-family: arial; text-decoration: none }
 
 .title h1{

@@ -54,7 +54,7 @@
         <section class="inscribete">
             <h2 class="inscribete__h2">¡Inscríbete ya!</h2>
             <p class="inscribete__p">Accede al congreso XCONAEINGEO, llevado a cabo del 02 al 06 de agosto de 2022.</p>
-            <button class="inscribete__button">Inscribirme</button>
+            <!-- <button class="inscribete__button">Inscribirme</button> -->
         </section>
         <div class="separacion"></div>
         <section class="video">
