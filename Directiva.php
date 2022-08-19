@@ -47,17 +47,28 @@
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
             
             <div class="directiva">
-                <h2>Directiva Central</h2>
+                <h2>Mesa directiva</h2>
                 <div class="col-8">
                     <div class="glide1 glide">
                         <div class="glide__track" data-glide-el="track">
                           <ul class="glide__slides">
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-1.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3> </li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-2.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-3.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-4.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-5.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                          </ul>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/PRESIDENTE EJECUTIVO - ALEX ROLY CHALLHUA PACHA.jpeg" alt="">
+                                <h3 class="directiva__Nombre">ALEX ROLY CHALLHUA PACHA</h3> 
+                                <p class="directiva__Cargos">Presidente ejecutivo</p> 
+                            </li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/SECRETARIA DE TESORERIA y finanzas- MARY CARMEN QUISPE QUISPE.jpeg" alt="">
+                                <h3 class="_Nombre">MARY CARMEN QUISPE QUISPE</h3>
+                                <p class="directiva__Cargos">Secretaria de tesoreria y finanzas</p>
+                            </li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/SECRETARIO DE ACTAS Y ARCHIVOS -  RENBERTH CONDORI CUTIPA.png" alt="">
+                                <h3 class="directiva__Nombre">RENBERTH CONDORI CUTIPA</h3>
+                                <p class="directiva__Cargos">Secretario de actas y archivos</p>
+                            </li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/VICEPRESIDENTA EJECUTIVA - NAYDA LISBET HUAMAN CONDE.jpeg" alt="">
+                                <h3 class="directiva__Nombre">NAYDA LISBET HUAMAN CONDE</h3>
+                                <p class="directiva__Cargos">Vicepresidenta ejecutiva</p>
+                            </li>
+                            
                         </div>
                         <div class="glide__arrows" data-glide-el="controls">
                             <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fa fa-angle-left"></i></button>
@@ -68,16 +79,35 @@
             </div>  
             
             <div class="directiva">
-                <h2>Directiva Sociocultural</h2>
+                <h2>Comisiones</h2>
                 <div class="col-8">
                     <div class="glide2 glide">
                         <div class="glide__track" data-glide-el="track">
                           <ul class="glide__slides">
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-1.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3> </li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-2.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-3.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-4.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-5.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/C. ASUNTOS SOCIALES - EDMARY FELIX PEREZ .jpg" alt="">
+                                <h3 class="directiva__Nombre">EDMARY FELIX PEREZ</h3> 
+                                <p class="directiva__Cargos">ASUNTOS SOCIALES</p> 
+                            </li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/C. DE CONCURSOS ACADEMICOS- JANELY VANNIA CHILE AÑO.jpg" alt="">
+                                <h3 class="_Nombre">JANELY VANNIA CHILE AÑO</h3>
+                                <p class="directiva__Cargos">CONCURSOS ACADEMICOS</p>
+                            </li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/C. IMAGEN INSTITUCIONAL- SONALY MONRROY PALOMINO.jpg" alt="">
+                                <h3 class="directiva__Nombre">SONALY MONRROY PALOMINO</h3>
+                                <p class="directiva__Cargos">IMAGEN INSTITUCIONAL</p>
+                            </li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/C. Logistica-YAMELY CHOQUE QUISPE .jpeg" alt="">
+                                <h3 class="directiva__Nombre">YAMELY CHOQUE QUISPE</h3>
+                                <p class="directiva__Cargos">LOGISTICA</p>
+                            </li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/C. RECURSOS HUMANOS- NANDY MILAGROS ENRIQUEZ AYMA.jpg" alt="">
+                                <h3 class="directiva__Nombre">NANDY MILAGROS ENRIQUEZ AYMA</h3>
+                                <p class="directiva__Cargos">RECURSOS HUMANOS</p>
+                            </li>
+                            <li class="glide__slide"><img src="./Imagenes/Directivas/C. WORKSHOP -  DANNY OJEDA QUISPE .jpg" alt="">
+                                <h3 class="directiva__Nombre">DANNY OJEDA QUISPE</h3>
+                                <p class="directiva__Cargos">WORKSHOP</p>
+                            </li>
                           </ul>
                         </div>
                         <div class="glide__arrows" data-glide-el="controls">
@@ -88,26 +118,6 @@
                 </div>
             </div>  
             
-            <div class="directiva">
-                <h2>Directiva de asuntos academicos</h2>
-                <div class="col-8">
-                    <div class="glide3 glide">
-                        <div class="glide__track" data-glide-el="track">
-                          <ul class="glide__slides">
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-1.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3> </li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-2.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-3.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-4.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                            <li class="glide__slide"><img src="./Imagenes/Directivas/D-5.jpg" alt=""><h3>Rogger Miguel Jaramillo Chunga</h3></li>
-                          </ul>
-                        </div>
-                        <div class="glide__arrows" data-glide-el="controls">
-                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fa fa-angle-left"></i></button>
-                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fa fa-angle-right"></i></button>
-                        </div>
-                    </div>
-                </div>  
-            </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </section>
     </article>
