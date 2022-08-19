@@ -314,12 +314,12 @@
         
             <div class="topicosJueves">
                 <section class="topico">
-                    <h4 class="WORKSHOP"><a class="WORKSHOP" href="./Imagenes/HorarioPrueba2.png" target="_self">WORKSHOP</a></h4>
-                    <h4 class="MISS"><a class="MISS" href="./Imagenes/HorarioPrueba2.png" target="_self">MISS Y MISTER CONAEINGEO</a></h4>
+                    <h4 class="WORKSHOP"><a class="WORKSHOP liink" href="./Imagenes/HorarioPrueba2.png" target="_self">WORKSHOP</a></h4>
+                    <h4 class="MISS"><a class="MISS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">MISS Y MISTER CONAEINGEO</a></h4>
                 </section>
                 <section class="topico">
-                    <h4 class="CONCURSO"><a class="CONCURSO" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSOS ACADEMICOS</a></h4>
-                    <h4 class="MISS"><a class="MISS" href="./Imagenes/HorarioPrueba2.png" target="_self">MISS Y MISTER CONAEINGEO</a></h4>
+                    <h4 class="CONCURSO"><a class="CONCURSO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSOS ACADEMICOS</a></h4>
+                    <h4 class="MISS"><a class="MISS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">MISS Y MISTER CONAEINGEO</a></h4>
                 </section>
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
@@ -363,16 +363,16 @@
         
             <div class="topicos">
                 <section class="topico">
-                    <h4 class="CONCURSO"><a class="CONCURSO" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSOS ACADEMICOS</a></h4>
-                    <h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>
+                    <h4 class="CONCURSO"><a class="CONCURSO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSOS ACADEMICOS</a></h4>
+                    <h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>
                 </section>
                 <section class="topico">
-                    <h4 class="SALIDAS"><a class="SALIDAS" href="./Imagenes/HorarioPrueba2.png" target="_self">SALIDAS DE CAMPO Y VISITAS GEOTURISTICAS</a></h4>
-                    <h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>
+                    <h4 class="SALIDAS"><a class="SALIDAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">SALIDAS DE CAMPO Y VISITAS GEOTURISTICAS</a></h4>
+                    <h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>
                 </section>
                 <section class="topico">
-                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITAS TECNICAS</a></h4>
-                    <h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>
+                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITAS TECNICAS</a></h4>
+                    <h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>
                 </section>    
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
@@ -415,16 +415,16 @@
         
             <div class="topicos">
                 <section class="topico">
-                    <h4 class="SALIDASCAMPO"><a class="SALIDASCAMPO" href="./Imagenes/HorarioPrueba2.png" target="_self">SALIDAS DE CAMPO</a></h4>
-                    <h4 class="CITYTOUR"><a class="CITYTOUR" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
+                    <h4 class="SALIDASCAMPO"><a class="SALIDASCAMPO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">SALIDAS DE CAMPO</a></h4>
+                    <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
                 </section>
                 <section class="topico">
-                    <h4 class="VISITASGEO"><a class="VISITASGEO" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA GEOTURISTICAS</a></h4>
-                    <h4 class="CITYTOUR"><a class="CITYTOUR" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
+                    <h4 class="VISITASGEO"><a class="VISITASGEO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA GEOTURISTICAS</a></h4>
+                    <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
                 </section>
                 <section class="topico">
-                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITAS TECNICAS</a></h4>
-                    <h4 class="CITYTOUR"><a class="CITYTOUR" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
+                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITAS TECNICAS</a></h4>
+                    <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
                 </section>    
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
@@ -468,11 +468,11 @@
         
             <div class="topicos Lunes">
                 <section class="topico">
-                    <h4 class="COPA"><a class="COPA" href="./Imagenes/HorarioPrueba2.png" target="_self">COPA CONAEINGEO VOLEY, FUTBOL, BASQUET, HIMKANAS</a></h4>
+                    <h4 class="COPA"><a class="COPA liink" href="./Imagenes/HorarioPrueba2.png" target="_self">COPA CONAEINGEO VOLEY, FUTBOL, BASQUET, HIMKANAS</a></h4>
                     <p><br></p>
-                    <h4 class="CEREMONIA"><a class="CEREMONIA" href="./Imagenes/HorarioPrueba2.png" target="_self">CEREMONIA DE CLAUSURA PREMIACION DE LOS DIFERENTES CONCURSOS</a></h4>
+                    <h4 class="CEREMONIA"><a class="CEREMONIA liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CEREMONIA DE CLAUSURA PREMIACION DE LOS DIFERENTES CONCURSOS</a></h4>
                     <p class="Span2"><br></p>
-                    <h4 class="FIESTACLAUSURA"><a class="FIESTACLAUSURA" href="./Imagenes/HorarioPrueba2.png" target="_self">FIESTA DE CLAUSURA</a></h4>                   
+                    <h4 class="FIESTACLAUSURA"><a class="FIESTACLAUSURA liink" href="./Imagenes/HorarioPrueba2.png" target="_self">FIESTA DE CLAUSURA</a></h4>                   
                 </section>   
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
