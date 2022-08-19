@@ -15,8 +15,8 @@ article {
     max-width: 90vw;
 }
 
-.contenido {
-    height: 100rem; /*modificar para largo*/
+.contenido--Ponentes {
+    height: 215rem; /*modificar para largo*/
 }
 
 @media (min-width: 1200px) {
@@ -172,7 +172,7 @@ article {
 .cover__card img{
     object-fit: cover; /*centrar cualquier imagen en cualquier redimension */
     width: 110px;
-    height: 140px;
+    height: 150px;
     /*max-height: 100%;
     max-width: 100%;*/
     transition: all 300ms;
@@ -185,12 +185,16 @@ article {
 }
 
 .card p{
-    margin-top: 20px;
-    font-size: 10px;
+    margin-top: 20px; 
+    font-size: 8px;
     margin-top: 0;
     font-weight: 300;
     color: #fff;
     letter-spacing: 0.5px;
+}
+
+.card hr {
+    margin-top: 0;
 }
 
 @media (min-width: 540px) {
@@ -224,7 +228,7 @@ article {
     }
 
     .datos__ponente p {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 300;
         margin-top: 20px;
     }   
