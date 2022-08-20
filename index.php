@@ -236,6 +236,32 @@
                     <a href="#"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/SMARTX-EXPLORER.png"></a>
                     <a href="#"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/SOCIEDAD GEOLOGICA DEL PERU.jpg"></a>
                 </div>
+                <div class="sponsors-5">
+                    <a href=""><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/hidroandes.jpg" alt=""></a>
+                    <a href=""><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/ingemmet.png" alt=""></a>
+                </div>
+                <div class="sponsors-6">
+                    <a href=""><img class="img-sponsors-6" src="./Imagenes/LOGOS AUSPICIADORES/geomorfologia.png" alt=""></a>
+                    <a href=""><img class="img-sponsors-6" src="./Imagenes/LOGOS AUSPICIADORES/piasa.jpeg" alt=""></a>
+                </div>
+                <div class="sponsors-7">
+                    <a href=""><img class="img-sponsors-7" src="./Imagenes/LOGOS AUSPICIADORES/minexfield.png" alt=""></a>
+                    <a href=""><img class="img-sponsors-7" src="./Imagenes/LOGOS AUSPICIADORES/logo inkas machupicchu.png" alt=""></a>
+                </div>
+                <div class="sponsors-8">
+                    <a href=""><img class="img-sponsors-8" src="./Imagenes/LOGOS AUSPICIADORES/Datamine_cmyk.png" alt=""></a>
+                </div>
+
+                <div class="sponsors-4">
+                    <a href=""><img class="img-sponsors-4" src="./Imagenes/LOGOS AUSPICIADORES/geopoint peru.jpg" alt=""></a>
+                    <a href=""><img class="img-sponsors-4" src="./Imagenes/LOGOS AUSPICIADORES/SOK.jpg" alt=""></a>
+                </div>
+                <div class="sponsors-3">
+                    <a href=""><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/minerales cristalizados.jpeg" alt=""></a>
+                    <a href=""><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/ise.png" alt=""></a>
+                </div>
+                
+                
             </div>
         </section>
     </article>
