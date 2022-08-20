@@ -23,9 +23,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!-- SweetAlert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Fuente Didact Gothic-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
+    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=902408050" target="_blank">
         <i class="icon icon-whatsapp"></i>
     </a>
     <?php

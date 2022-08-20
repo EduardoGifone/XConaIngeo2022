@@ -1,3 +1,13 @@
+:root {
+    --fuenteHeading: 'Didact Gothic', sans-serif;
+}
+
+/* ============================================== GENERALES ============================================== */
+* {
+    font-family: var(--fuenteHeading);
+}
+
+
 * {
     margin: 0;
     padding: 0;
