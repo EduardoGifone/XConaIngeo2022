@@ -42,7 +42,7 @@
 
     transform-style: preserve-3d;
     transform-origin: center;
-    transform: rotateY(calc(var(--i)*36deg)) translateZ(270px);
+    transform: rotateY(calc(var(--i)*33deg)) translateZ(400px);
 }
 
 
@@ -83,7 +83,7 @@
     .content span {
         transform-style: preserve-3d;
         transform-origin: center;
-        transform: rotateY(calc(var(--i)*36deg)) translateZ(370px);
+        transform: rotateY(calc(var(--i)*33deg)) translateZ(370px);
     }
     
     

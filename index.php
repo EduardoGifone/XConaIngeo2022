@@ -223,6 +223,7 @@
                     <span style="--i:8;"><div><img src="./Imagenes/U08.jpg" alt="08"></div></span>
                     <span style="--i:9;"><div><img src="./Imagenes/U09.png" alt="09"></div></span>
                     <span style="--i:10;"><div><img src="./Imagenes/U10.png" alt="10"></div></span>
+                    <span style="--i:11;"><div><img src="./Imagenes/unsaac.jfif" alt="11"></div></span>
                 </div>
             </div>
         </section>
@@ -256,7 +257,6 @@
                 </div>
 
                 <div class="sponsors-6">
-                    <a href="https://ise-academy.net/about-us/"><img class="img-sponsors-6" src="" alt="siuuuuu"></a>
                     <a href="https://ise-academy.net/about-us/"><img class="img-sponsors-6" src="./Imagenes/LOGOS AUSPICIADORES/ise.png" alt=""></a>
                     <a href="#"><img class="img-sponsors-6" src="./Imagenes/LOGOS AUSPICIADORES/GEOTEKH PERU.jpg"></a>
                 </div>
