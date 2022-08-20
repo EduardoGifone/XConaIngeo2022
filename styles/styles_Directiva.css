@@ -1,6 +1,14 @@
+:root {
+    --fuenteHeading: 'Didact Gothic', sans-serif;
+}
+
+h1, h2, h3, h4, p, div {
+    font-family: var(--fuenteHeading);
+}
+
 .contenido {
     font-family: Open sans, sans-serif;
-    background: #d3d6ea;
+    background: rgba(66, 5, 1, 0.8);
     display: flex;
     flex-direction: column;
     justify-content: center;

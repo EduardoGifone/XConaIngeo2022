@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="./styles/styles_universidades.css">
     <link rel="stylesheet" href="./styles/styles_sponsors.css">
 
+    <!-- Fuente Didact Gothic-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -227,40 +231,38 @@
             <h2 class="center-align titulo Sponsors__h2">Nos patrocinan!!!</h2>
             <div class="caja-sponsors">
                 <div class="sponsors-1">
-                    <a href="#"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/GEOTEKH PERU.jpg"></a>
-                    <a href="#"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/GLOBAL MINING ACADEMY.jpg"></a>
-                    <a href="#"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/Peruvian Geothermal Association.jpg"></a>
-                    <a href="#"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/ScanViz GEO-Ingeniería.jpg"></a>
+                    <a href="https://www.facebook.com/smartxexplorer/"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/SMARTX-EXPLORER.png"></a>
+                    <a href="https://www.sgp.org.pe/"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/SOCIEDAD GEOLOGICA DEL PERU.jpg"></a>
+                    <a href="https://www.sgp.org.pe/"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/hidroandes.jpg" alt=""></a>
                 </div>
                 <div class="sponsors-2">
-                    <a href="#"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/SMARTX-EXPLORER.png"></a>
-                    <a href="#"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/SOCIEDAD GEOLOGICA DEL PERU.jpg"></a>
-                </div>
-                <div class="sponsors-5">
-                    <a href=""><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/hidroandes.jpg" alt=""></a>
-                    <a href=""><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/ingemmet.png" alt=""></a>
-                </div>
-                <div class="sponsors-6">
-                    <a href=""><img class="img-sponsors-6" src="./Imagenes/LOGOS AUSPICIADORES/geomorfologia.png" alt=""></a>
-                    <a href=""><img class="img-sponsors-6" src="./Imagenes/LOGOS AUSPICIADORES/piasa.jpeg" alt=""></a>
-                </div>
-                <div class="sponsors-7">
-                    <a href=""><img class="img-sponsors-7" src="./Imagenes/LOGOS AUSPICIADORES/minexfield.png" alt=""></a>
-                    <a href=""><img class="img-sponsors-7" src="./Imagenes/LOGOS AUSPICIADORES/logo inkas machupicchu.png" alt=""></a>
-                </div>
-                <div class="sponsors-8">
-                    <a href=""><img class="img-sponsors-8" src="./Imagenes/LOGOS AUSPICIADORES/Datamine_cmyk.png" alt=""></a>
-                </div>
-
-                <div class="sponsors-4">
-                    <a href=""><img class="img-sponsors-4" src="./Imagenes/LOGOS AUSPICIADORES/geopoint peru.jpg" alt=""></a>
-                    <a href=""><img class="img-sponsors-4" src="./Imagenes/LOGOS AUSPICIADORES/SOK.jpg" alt=""></a>
+                    <a href="https://www.gob.pe/ingemmet"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/ingemmet.png" alt=""></a>
+                    <a href="https://www.facebook.com/Geocidsac/"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/geomorfologia.png" alt=""></a>
+                    <a href="http://www.piasaconsultores.com"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/piasa.jpeg" alt=""></a>
                 </div>
                 <div class="sponsors-3">
-                    <a href=""><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/minerales cristalizados.jpeg" alt=""></a>
-                    <a href=""><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/ise.png" alt=""></a>
+                    <a href="https://www.linkedin.com/company/minex-field"><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/minexfield.png" alt=""></a>
+                    <a href="https://www.facebook.com/Inkas-Machupicchu-Explorer-EIRL-tour-operador-108686111434217"><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/logo inkas machupicchu.png" alt=""></a>
+                    <a href="https://innova.lat/"><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/innova.jpg" alt=""></a>
                 </div>
-                
+                <div class="sponsors-4">
+                    <a href="https://www.dataminesoftware.com/es/acerca-de-datamine/"><img class="img-sponsors-4" src="./Imagenes/LOGOS AUSPICIADORES/Datamine_cmyk.png" alt=""></a>
+                    <a href="https://www.sampling-ok.com/Sampling-OK"><img class="img-sponsors-4" src="./Imagenes/LOGOS AUSPICIADORES/SOK.jpg" alt=""></a>
+                </div>
+                <div class="sponsors-5">
+                    <a href="https://www.facebook.com/Geopoint-PERU-105527981478973/?__tn__=kK*F"><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/geopoint peru.jpg" alt=""></a>
+                    <a href="https://www.minsup.com.pe/"><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/minsup.jpg" alt=""></a>
+                    <a href=""><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/minerales cristalizados.jpeg" alt=""></a>
+                </div>
+
+                <div class="sponsors-6">
+                    <a href="https://ise-academy.net/about-us/"><img class="img-sponsors-6" src="" alt="siuuuuu"></a>
+                    <a href="https://ise-academy.net/about-us/"><img class="img-sponsors-6" src="./Imagenes/LOGOS AUSPICIADORES/ise.png" alt=""></a>
+                    <a href="#"><img class="img-sponsors-6" src="./Imagenes/LOGOS AUSPICIADORES/GEOTEKH PERU.jpg"></a>
+                </div>
+                <div class="sponsors-0">
+                    
+                </div>
                 
             </div>
         </section>
