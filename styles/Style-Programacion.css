@@ -86,10 +86,22 @@ div.Jueves{
     grid-template-columns: repeat(3,1fr);
 }
 
+.topicoviernes{
+    grid-column: 2/7;
+    grid-template-columns: repeat(4,1fr);
+}
+
 .topicosJueves{
     display: grid;
     grid-column: 2/7;
     grid-template-columns: repeat(2,1fr);
+}
+
+
+.topicosdomingo{
+    display: grid;
+    grid-column: 2/7;
+    grid-template-columns: repeat(1,1fr);
 }
 
 .container .topico p,
@@ -208,29 +220,27 @@ p, h4, .Paraninfo{
 
 /* GRID ROW  JUEVES*/
 .WORKSHOP,.CONCURSO{
-    grid-row: span 25;
+    grid-row: span 19;
+    grid-column: span 2;
 }
 
 .MISS{
     grid-row: span 7;
+    grid-column: span 2;
 }
 
 /* GRID ROW  VIERNES*/
-.SALIDAS,.VISITASTECNICAS{
-    grid-row: span 27;
-}
 
 /*.VISITAMUSEOS{
     grid-row: span 5;
 }*/
 
-
-.MISS{
-    grid-row: span 5;
-}
-/* GRID ROW  VIERNES*/
 .SALIDAS,.VISITASTECNICAS{
-    grid-row: span 20;
+    grid-row: span 26;
+}
+
+.viernesconcurso{
+    grid-row: span 26;
 }
 
 .VISITAMUSEOS{
@@ -239,28 +249,35 @@ p, h4, .Paraninfo{
 
 /* GRID ROW  SABADO*/
 .SALIDASCAMPO,.VISITASGEO{
-    grid-row: span 20;
+    grid-row: span 26;
 }
 
-/* GRID ROW  SABADO*/
-.SALIDASCAMPO,.VISITASGEO{
-    grid-row: span 20;
-}
 .CITYTOUR{
     grid-row: span 5;
 }
 /* GRID ROW  DOMINGO*/
 .COPA{
-    grid-row: span 11;
+    grid-row: span 10;
+    grid-column: span 3;
 }
 .CEREMONIA{
     grid-row: span 8;
+    grid-column: span 3;
 }
-.Span2{
-    grid-row: span 2;
-}
+
 .FIESTACLAUSURA{
-    grid-row: span 3;
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+.blanco5{
+    grid-column: span 3;
+    grid-row: span 5;
+}
+
+.blanco6{
+    grid-column: span 3;
+    grid-row: span 1;
 }
 /*BACKGROUND ELLOS QUIEREN */
 
@@ -414,8 +431,14 @@ a{
 }
 
 /* COSAS EXTRAS*/
+.blanco3{
+    text-align: center;
+}
+
 .extraponencia,.EntregaMateriales,.Bienvenida,.CoffebreakAlmuerzo,.CoffeBreak,.Fiesta,
-.PonenciaEstudiantil,.PonenciaMagistral{
+.PonenciaEstudiantil,.PonenciaMagistral
+.blanco3
+{
     display: grid;
     place-items: center;
     line-height:normal !important; 

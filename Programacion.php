@@ -1,8 +1,8 @@
 <?php
-    //session_start();
-    //if (!isset($_SESSION["contrasenia"])){
-    //    header("location: index.php");
-    // }
+    session_start();
+    if (!isset($_SESSION["contrasenia"])){
+        header("location: index.php");
+    }
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -77,7 +77,8 @@
                     <h4 class="Paraninfo">Paraninfo Univesitario</h4>
                     <p class="EntregaMateriales">Entrega Materiales  </p>
                     <p class="Bienvenida">Bienvenida e Inauguracion del XI CONAEINGEO</p>
-                    <p class="TomaFotos">Toma de fotos a las delegaciones</p>
+                    <p class="TomaFotos">Director del INGEMMET: Ing. Henry
+Córdova Luna</p>
                     <p class="CoffebreakAlmuerzo">Coffe break/Almuerzo</p>
                     <p class="PonenciaMagistral extraponencia" >Ponencia Magistral
                                                                 “La hidroarqueología de los Monumentos
@@ -621,20 +622,23 @@
                 <p>21:00</p>
             </section>
         
-            <div class="topicos">
+            <div class="topicos topicoviernes">
                 <section class="topico">
-                    <h4 class="CONCURSO"><a class="CONCURSO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSOS ACADEMICOS</a></h4>
+                    <h4 class="CONCURSO viernesconcurso"><a class="CONCURSO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSOS ACADEMICOS</a></h4>
                     <!--<h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>-->
-                    <p ><br></p>
                 </section>
                 <section class="topico">
                     <h4 class="SALIDAS"><a class="SALIDAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">SALIDAS DE CAMPO Y VISITAS GEOTURISTICAS</a></h4>
-                    <h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>
+                    <!--<h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>-->
                 </section>
                 <section class="topico">
-                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITAS TECNICAS</a></h4>
-                    <h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>
-                </section>    
+                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">WORKSHOP</a></h4>
+                    <!--<h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>-->
+                </section>
+                <section class="topico">
+                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSO DE LEVANTAMIENTO DE COLUMNAS ESTRATIGRAFICAS CONCUROS DE CARTOGRAFIADO GEOLOGICO</a></h4>
+                    <!--<h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>-->
+                </section>        
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </section>
@@ -678,15 +682,15 @@
             <div class="topicos">
                 <section class="topico">
                     <h4 class="SALIDASCAMPO"><a class="SALIDASCAMPO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">SALIDAS DE CAMPO</a></h4>
-                    <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
+                    <!-- <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>-->
                 </section>
                 <section class="topico">
                     <h4 class="VISITASGEO"><a class="VISITASGEO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA GEOTURISTICAS</a></h4>
-                    <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
+                    <!-- <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>-->
                 </section>
                 <section class="topico">
-                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITAS TECNICAS</a></h4>
-                    <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>
+                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSO DE LEVANTAMIENTO DE COLUMNAS ESTRATIGRAFICAS CONCUROS DE CARTOGRAFIADO GEOLOGICO</a></h4>
+                    <!-- <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>-->
                 </section>    
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
@@ -729,12 +733,12 @@
                 <p>21:00</p>
             </section>
         
-            <div class="topicos Lunes">
+            <div class="topicos topicosdomingo">
                 <section class="topico">
                     <h4 class="COPA"><a class="COPA liink" href="./Imagenes/HorarioPrueba2.png" target="_self">COPA CONAEINGEO VOLEY, FUTBOL, BASQUET, HIMKANAS</a></h4>
-                    <p><br></p>
+                    <p class="blanco5"><br></p>
                     <h4 class="CEREMONIA"><a class="CEREMONIA liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CEREMONIA DE CLAUSURA PREMIACION DE LOS DIFERENTES CONCURSOS</a></h4>
-                    <p class="Span2"><br></p>
+                    <p class="blanco6"><br></p>
                     <h4 class="FIESTACLAUSURA"><a class="FIESTACLAUSURA liink" href="./Imagenes/HorarioPrueba2.png" target="_self">FIESTA DE CLAUSURA</a></h4>                   
                 </section>   
             </div>

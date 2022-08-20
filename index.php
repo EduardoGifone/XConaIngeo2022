@@ -34,6 +34,7 @@
         <i class="icon icon-whatsapp"></i>
     </a>
     <?php
+    
     if (!isset($_SESSION['correo'])){
         include("HeaderPublic.php");
     }
