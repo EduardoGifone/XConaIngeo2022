@@ -231,7 +231,11 @@
                             <h2>Pedro Guillermjo Isique Chanamé</h2>
                             <!-- <hr> -->
                             <p>
-                        
+                                Ingeniero Geologo de la UNMSM, Maestria en la UNFV, Diplomado en la Universidad de Valencia,
+                                cursos internacionales de Geotecnia en USA y Brasil. Gerente general de PIASA Consultores SA,
+                                Consultor internacional en geologia y geotecnia en obras de infraestructura APIG, ex presidente 
+                                del XX Congreso Peruano de Geologia.
+
                             </p>
                         </div>
                     </div>
