@@ -1,9 +1,16 @@
 /* ============================================== GENERALES ============================================== */
+:root {
+    --fuenteHeading: 'Didact Gothic', sans-serif;
+}
+
+/* ============================================== GENERALES ============================================== */
+* {
+    font-family: var(--fuenteHeading);
+}
 
 * {
     padding: 0;
     margin: 0;
-    font-family: Verdana, sans-serif;
     box-sizing: border-box;
     font-size: 16px;
     --filtro-imagenes: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));

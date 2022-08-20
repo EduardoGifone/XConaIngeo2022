@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./styles/styles_ponentes.css">
     <link rel="stylesheet" href="./styles/styles_universidades.css">
     <link rel="stylesheet" href="./styles/styles_sponsors.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- Fuente Didact Gothic-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +30,7 @@
 </head>
 
 <body>
-    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
+    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=902408050" target="_blank">
         <i class="icon icon-whatsapp"></i>
     </a>
     <?php
@@ -96,16 +97,16 @@
             <p class="redes-sociales__p">Siguenos en nuestras redes sociales</p>
             <ul class="redes-sociales__ul">
                 <a href="#" class="redes-sociales__ul__link" target="_blank">
-                    <div class="redes-sociales__ul__link__img youtube"></div>
+                    <div class="redes-sociales__ul__link__img youtube"><i class="fab fa-youtube"></i></div>
                 </a>
                 <a href="https://www.facebook.com/XI-Conaeingeo-Cusco-2022-107191221809301/" class="redes-sociales__ul__link" target="_blank">
-                    <div class="redes-sociales__ul__link__img facebook"></div>
+                    <div class="redes-sociales__ul__link__img facebook"><i class="fab fa-facebook-f"></i></div>
                 </a>
-                <a href="#" class="redes-sociales__ul__link" target="_blank">
-                    <div class="redes-sociales__ul__link__img instagram"></div>
+                <a href="https://instagram.com/xiconaeingeocusco2022?igshid=YmMyMTA2M2Y=" class="redes-sociales__ul__link" target="_blank">
+                    <div class="redes-sociales__ul__link__img instagram"><i class="fab fa-instagram"></i></div>
                 </a>
-                <a href="#" class="redes-sociales__ul__link" target="_blank">
-                    <div class="redes-sociales__ul__link__img linkedin"></div>
+                <a href="https://www.linkedin.com/company/xi-congreso-nacional-de-estudiantes-de-ingenier%C3%ADa-geologica/" class="redes-sociales__ul__link" target="_blank">
+                    <div class="redes-sociales__ul__link__img linkedin"><i class="fab fa-linkedin-in"></i></div>
                 </a>
             </ul>
         </section>
@@ -232,28 +233,28 @@
             <h2 class="center-align titulo Sponsors__h2">Nos patrocinan!!!</h2>
             <div class="caja-sponsors">
                 <div class="sponsors-1">
-                    <a href="https://www.facebook.com/smartxexplorer/"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/SMARTX-EXPLORER.png"></a>
-                    <a href="https://www.sgp.org.pe/"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/SOCIEDAD GEOLOGICA DEL PERU.jpg"></a>
-                    <a href="https://www.sgp.org.pe/"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/hidroandes.jpg" alt=""></a>
+                    <a href="https://www.facebook.com/smartxexplorer/" target="_blank"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/SMARTX-EXPLORER.png"></a>
+                    <a href="https://www.sgp.org.pe/" target="_blank"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/SOCIEDAD GEOLOGICA DEL PERU.jpg"></a>
+                    <a href="https://www.sgp.org.pe/" target="_blank"><img class="img-sponsors-1" src="./Imagenes/LOGOS AUSPICIADORES/hidroandes.jpg" alt=""></a>
                 </div>
                 <div class="sponsors-2">
-                    <a href="https://www.gob.pe/ingemmet"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/ingemmet.png" alt=""></a>
-                    <a href="https://www.facebook.com/Geocidsac/"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/geomorfologia.png" alt=""></a>
-                    <a href="http://www.piasaconsultores.com"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/piasa.jpeg" alt=""></a>
+                    <a href="https://www.gob.pe/ingemmet" target="_blank"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/ingemmet.png" alt=""></a>
+                    <a href="https://www.facebook.com/Geocidsac/" target="_blank"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/geomorfologia.png" alt=""></a>
+                    <a href="http://www.piasaconsultores.com" target="_blank"><img class="img-sponsors-2" src="./Imagenes/LOGOS AUSPICIADORES/piasa.jpeg" alt=""></a>
                 </div>
                 <div class="sponsors-3">
-                    <a href="https://www.linkedin.com/company/minex-field"><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/minexfield.png" alt=""></a>
-                    <a href="https://www.facebook.com/Inkas-Machupicchu-Explorer-EIRL-tour-operador-108686111434217"><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/logo inkas machupicchu.png" alt=""></a>
-                    <a href="https://innova.lat/"><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/innova.jpg" alt=""></a>
+                    <a href="https://www.linkedin.com/company/minex-field" target="_blank"><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/minexfield.png" alt=""></a>
+                    <a href="https://www.facebook.com/Inkas-Machupicchu-Explorer-EIRL-tour-operador-108686111434217" target="_blank"><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/logo inkas machupicchu.png" alt=""></a>
+                    <a href="https://innova.lat/" target="_blank"><img class="img-sponsors-3" src="./Imagenes/LOGOS AUSPICIADORES/innova.jpg" alt=""></a>
                 </div>
                 <div class="sponsors-4">
-                    <a href="https://www.dataminesoftware.com/es/acerca-de-datamine/"><img class="img-sponsors-4" src="./Imagenes/LOGOS AUSPICIADORES/Datamine_cmyk.png" alt=""></a>
-                    <a href="https://www.sampling-ok.com/Sampling-OK"><img class="img-sponsors-4" src="./Imagenes/LOGOS AUSPICIADORES/SOK.jpg" alt=""></a>
+                    <a href="https://www.dataminesoftware.com/es/acerca-de-datamine/" target="_blank"><img class="img-sponsors-4" src="./Imagenes/LOGOS AUSPICIADORES/Datamine_cmyk.png" alt=""></a>
+                    <a href="https://www.sampling-ok.com/Sampling-OK" target="_blank"><img class="img-sponsors-4" src="./Imagenes/LOGOS AUSPICIADORES/SOK.jpg" alt=""></a>
                 </div>
                 <div class="sponsors-5">
-                    <a href="https://www.facebook.com/Geopoint-PERU-105527981478973/?__tn__=kK*F"><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/geopoint peru.jpg" alt=""></a>
-                    <a href="https://www.minsup.com.pe/"><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/minsup.jpg" alt=""></a>
-                    <a href=""><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/minerales cristalizados.jpeg" alt=""></a>
+                    <a href="https://www.facebook.com/Geopoint-PERU-105527981478973/?__tn__=kK*F" target="_blank"><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/geopoint peru.jpg" alt=""></a>
+                    <a href="https://www.minsup.com.pe/" target="_blank"><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/minsup.jpg" alt=""></a>
+                    <a href="#"><img class="img-sponsors-5" src="./Imagenes/LOGOS AUSPICIADORES/minerales cristalizados.jpeg" alt=""></a>
                 </div>
 
                 <div class="sponsors-6">

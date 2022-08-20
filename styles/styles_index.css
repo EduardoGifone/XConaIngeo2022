@@ -11,7 +11,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Verdana, sans-serif;
     box-sizing: border-box;
     font-size: 16px;
     --filtro-imagenes: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
@@ -413,6 +412,7 @@ body {
     margin-top: 20px;
     margin-bottom: 12.5rem;
     transition: all 500ms ease-in-out;
+    font-weight: 800;
 }
 
 .figure__capa__p {
@@ -460,7 +460,6 @@ body {
 
 .redes-sociales__p {
     font-size: 1.5625rem;
-    margin: 1.875rem 4.375rem;
 }
 
 .redes-sociales__ul {
@@ -476,6 +475,9 @@ body {
     box-shadow: 0 0 1.25rem 0 #000B;
     margin: 0 0.5rem;
     transition: 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .redes-sociales__ul__link__img:hover {
@@ -529,6 +531,11 @@ body {
     font-size: 0.8125rem;
     font-weight: 300;
     margin: 1.25rem;
+}
+
+.fab {
+    font-size: 25px;
+    color: #fff;
 }
 
 /* =========================================================================================================== */
