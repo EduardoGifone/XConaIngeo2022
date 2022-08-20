@@ -113,11 +113,11 @@
     }
 
     .sponsors-6 {
-        padding: 0 9rem;
+        padding: 0 23rem;
         margin-top: 2rem;
         margin-bottom: 0;
         display: grid;
-        grid-template-columns: 6fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr;
         column-gap: 2rem;
         row-gap: 2rem;
     }
