@@ -21,7 +21,7 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
-    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=987654321" target="_blank">
+    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=+51902408050" target="_blank">
         <i class="icon icon-whatsapp"></i>
     </a>
     <?php
