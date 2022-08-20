@@ -29,7 +29,7 @@
 
 </head>
 <body>
-    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=902408050" target="_blank">
+    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=+51902408050" target="_blank">
         <i class="icon icon-whatsapp"></i>
     </a>
     <?php
