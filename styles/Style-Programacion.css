@@ -88,7 +88,7 @@ div.Jueves{
 
 .topicoviernes{
     grid-column: 2/7;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 
 .topicosJueves{
@@ -97,7 +97,10 @@ div.Jueves{
     grid-template-columns: repeat(2,1fr);
 }
 
-
+.topicosabado{
+    grid-column: 2/7;
+    grid-template-columns: repeat(2,1fr);
+}
 .topicosdomingo{
     display: grid;
     grid-column: 2/7;
@@ -106,7 +109,7 @@ div.Jueves{
 
 .container .topico p,
 .container .horas p{
-    padding: 5px;
+    padding: 2px;
 }
 
 
@@ -332,11 +335,15 @@ h4.Paraninfo{
 .container > div.Lunes .PonenciaEstudiantil,
 .container > div.Lunes .PonenciaMagistral,
 .container > div.Lunes .Fiesta{
-    line-height: 60px;font-size: 20px;
+    line-height: 60px;font-size: 17px;
 }
 
 .container > div.Lunes .Bienvenida{
     line-height: 100px;font-size: 20px;
+}
+
+.PonenciaEstudiantil,.PonenciaMagistral{
+    font-size: 12.5px;
 }
 
 .container > div.Lunes .CoffebreakAlmuerzo,
@@ -436,7 +443,7 @@ a{
 }
 
 .extraponencia,.EntregaMateriales,.Bienvenida,.CoffebreakAlmuerzo,.CoffeBreak,.Fiesta,
-.PonenciaEstudiantil,.PonenciaMagistral
+.PonenciaEstudiantil,.PonenciaMagistral,.TomaFotos
 .blanco3
 {
     display: grid;

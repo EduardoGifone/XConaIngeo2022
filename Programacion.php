@@ -574,12 +574,12 @@ Córdova Luna</p>
         
             <div class="topicosJueves">
                 <section class="topico">
-                    <h4 class="WORKSHOP"><a class="WORKSHOP liink" href="./Imagenes/HorarioPrueba2.png" target="_self">WORKSHOP</a></h4>
-                    <h4 class="MISS"><a class="MISS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">MISS Y MISTER CONAEINGEO</a></h4>
+                    <h4 class="WORKSHOP">WORKSHOP</h4>
+                    <h4 class="MISS">MISS Y MISTER CONAEINGEOXI</h4>
                 </section>
                 <section class="topico">
-                    <h4 class="CONCURSO"><a class="CONCURSO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSOS ACADEMICOS</a></h4>
-                    <h4 class="MISS"><a class="MISS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">MISS Y MISTER CONAEINGEO</a></h4>
+                    <h4 class="CONCURSO">CONCURSOS ACADEMICOS</h4>
+                    <h4 class="MISS">MISS Y MISTER CONAEINGEO</h4>
                 </section>
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
@@ -624,21 +624,17 @@ Córdova Luna</p>
         
             <div class="topicos topicoviernes">
                 <section class="topico">
-                    <h4 class="CONCURSO viernesconcurso"><a class="CONCURSO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSOS ACADEMICOS</a></h4>
+                    <h4 class="CONCURSO viernesconcurso">CONCURSOS ACADEMICOS</h4>
                     <!--<h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>-->
                 </section>
                 <section class="topico">
-                    <h4 class="SALIDAS"><a class="SALIDAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">SALIDAS DE CAMPO Y VISITAS GEOTURISTICAS</a></h4>
+                    <h4 class="SALIDAS">SALIDAS DE CAMPO Y VISITAS GEOTURISTICAS</h4>
                     <!--<h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>-->
                 </section>
                 <section class="topico">
-                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">WORKSHOP</a></h4>
+                    <h4 class="VISITASTECNICAS">WORKSHOP</h4>
                     <!--<h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>-->
-                </section>
-                <section class="topico">
-                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSO DE LEVANTAMIENTO DE COLUMNAS ESTRATIGRAFICAS CONCUROS DE CARTOGRAFIADO GEOLOGICO</a></h4>
-                    <!--<h4 class="VISITAMUSEOS"><a class="VISITAMUSEOS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA A LOS MUSEOS CUSQUEÑOS</a></h4>-->
-                </section>        
+                </section>  
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </section>
@@ -679,19 +675,15 @@ Córdova Luna</p>
                 <p>21:00</p>
             </section>
         
-            <div class="topicos">
+            <div class="topicos topicosabado">
                 <section class="topico">
-                    <h4 class="SALIDASCAMPO"><a class="SALIDASCAMPO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">SALIDAS DE CAMPO</a></h4>
+                    <h4 class="SALIDASCAMPO">SALIDAS DE CAMPO</h4>
                     <!-- <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>-->
                 </section>
                 <section class="topico">
-                    <h4 class="VISITASGEO"><a class="VISITASGEO liink" href="./Imagenes/HorarioPrueba2.png" target="_self">VISITA GEOTURISTICAS</a></h4>
+                    <h4 class="VISITASGEO">VISITA GEOTURISTICAS</h4>
                     <!-- <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>-->
-                </section>
-                <section class="topico">
-                    <h4 class="VISITASTECNICAS"><a class="VISITASTECNICAS liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CONCURSO DE LEVANTAMIENTO DE COLUMNAS ESTRATIGRAFICAS CONCUROS DE CARTOGRAFIADO GEOLOGICO</a></h4>
-                    <!-- <h4 class="CITYTOUR"><a class="CITYTOUR liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CITY TOUR CUSCO</a></h4>-->
-                </section>    
+                </section> 
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
         </section>
@@ -735,11 +727,11 @@ Córdova Luna</p>
         
             <div class="topicos topicosdomingo">
                 <section class="topico">
-                    <h4 class="COPA"><a class="COPA liink" href="./Imagenes/HorarioPrueba2.png" target="_self">COPA CONAEINGEO VOLEY, FUTBOL, BASQUET, HIMKANAS</a></h4>
+                    <h4 class="COPA">COPA CONAEINGEO VOLEY, FUTBOL, BASQUET, HIMKANAS</h4>
                     <p class="blanco5"><br></p>
-                    <h4 class="CEREMONIA"><a class="CEREMONIA liink" href="./Imagenes/HorarioPrueba2.png" target="_self">CEREMONIA DE CLAUSURA PREMIACION DE LOS DIFERENTES CONCURSOS</a></h4>
+                    <h4 class="CEREMONIA">CEREMONIA DE CLAUSURA PREMIACION DE LOS DIFERENTES CONCURSOS</h4>
                     <p class="blanco6"><br></p>
-                    <h4 class="FIESTACLAUSURA"><a class="FIESTACLAUSURA liink" href="./Imagenes/HorarioPrueba2.png" target="_self">FIESTA DE CLAUSURA</a></h4>                   
+                    <h4 class="FIESTACLAUSURA">FIESTA DE CLAUSURA</h4>                   
                 </section>   
             </div>
             <!-- ============================================ AQUI PONGAN SU CONTENIDO ============================================ -->
