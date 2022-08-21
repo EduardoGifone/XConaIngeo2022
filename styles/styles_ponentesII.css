@@ -11,17 +11,17 @@ article {
 }
 
 .article {
-    background-color: #212025;
+    background: #5E2C28/* 8A413C */;/*rgba(66, 5, 1, 0.8); */
     max-width: 90vw;
 }
 
 .contenido--Ponentes {
-    height: 215rem; /*modificar para largo*/
+    height: 465rem; /*modificar para largo*/
 }
 
 @media (min-width: 1200px) {
-    .contenido {
-        height: 60rem; 
+    .contenido--Ponentes {
+        height: 285rem; 
     }
 }
 

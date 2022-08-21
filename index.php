@@ -258,6 +258,7 @@
                 </div>
 
                 <div class="sponsors-6">
+                    <a href="https://play.google.com/store/apps/details?id=com.apexploration.apexploration&referrer=utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_term%3Dnextdisclver+app&pcampaignid=APPU_1_cqYBY4S8E4WU0Ab-w4LgCA"><img class="img-sponsors-6" src="./Imagenes/LOGOS AUSPICIADORES/NextDiscover.jpg"></a>
                     <a href="https://ise-academy.net/about-us/"><img class="img-sponsors-6" src="./Imagenes/LOGOS AUSPICIADORES/ise.png" alt=""></a>
                     <a href="#"><img class="img-sponsors-6" src="./Imagenes/LOGOS AUSPICIADORES/GEOTEKH PERU.jpg"></a>
                 </div>
