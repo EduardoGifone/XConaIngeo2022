@@ -41,8 +41,9 @@
     <article class="article">
         <section class="Bienvenida">
             <figure class="Imagen__Bienvenida" >
-                <img src="./Imagenes/Asesor1.png" width="960" alt="Bienvenida Xconaeingeo2022" class="figure__img">
-                <img src="./Imagenes/Asesor1.png" width="960" alt="Bienvenida Xconaeingeo2022" class="figure__img">
+                <img src="./Imagenes/ASESORESCONA1.png" width="960" alt="Bienvenida Xconaeingeo2022" class="figure__img">
+                <img src="./Imagenes/ASESORESCONA2.png" width="960" alt="Bienvenida Xconaeingeo2022" class="figure__img">
+                <img src="./Imagenes/ASESORESCONA3.png" width="960" alt="Bienvenida Xconaeingeo2022" class="figure__img">
             </figure>
         </section>
     </article>
